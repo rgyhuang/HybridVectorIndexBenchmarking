@@ -90,8 +90,11 @@ class ACORNIndex:
         # Simple hash: for this demo, we use category as integer
         # In production, you'd want a proper encoding scheme
         if 'category' in meta:
+            val = meta['category']
+            if isinstance(val, int):
+                return val
             cat_map = {'A': 0, 'B': 1, 'C': 2, 'D': 3}
-            return cat_map.get(meta['category'], 0)
+            return cat_map.get(val, 0)
         return 0
     
     def insert(self, vector: np.ndarray, meta: Dict[str, Any], doc_id: int):
@@ -139,7 +142,7 @@ class ACORNIndex:
             if not self.use_cpp and doc_id in self.vectors:
                 del self.vectors[doc_id]
     
-    def search(self, query_vec: np.ndarray, predicate: Callable[[Dict], bool], k: int = 10) -> Tuple[float, List[int]]:
+    def search(self, query_vec: np.ndarray, predicate: Callable[[Dict], bool], k: int = 10) -> Tuple[float, List[int], List[float]]:
         """
         Hybrid search: find k nearest neighbors satisfying the predicate.
         
@@ -149,25 +152,25 @@ class ACORNIndex:
             k: Number of neighbors to return
             
         Returns:
-            (latency_ms, list of document IDs)
+            (latency_ms, list of document IDs, list of distances)
         """
         t0 = time.time()
         query_vec = np.asarray(query_vec, dtype=np.float32)
         
         if len(self.current_ids) == 0:
-            return (time.time() - t0) * 1000, []
+            return (time.time() - t0) * 1000, [], []
         
         if self.use_cpp and self.cpp_index is not None:
             # C++ implementation
-            result_ids = self._search_cpp(query_vec, predicate, k)
+            result_ids, result_dists = self._search_cpp(query_vec, predicate, k)
         else:
             # Pure Python fallback
-            result_ids = self._search_python(query_vec, predicate, k)
+            result_ids, result_dists = self._search_python(query_vec, predicate, k)
         
         latency_ms = (time.time() - t0) * 1000
-        return latency_ms, result_ids
+        return latency_ms, result_ids, result_dists
     
-    def _search_cpp(self, query_vec: np.ndarray, predicate: Callable[[Dict], bool], k: int) -> List[int]:
+    def _search_cpp(self, query_vec: np.ndarray, predicate: Callable[[Dict], bool], k: int) -> Tuple[List[int], List[float]]:
         """Search using C++ implementation."""
         # Build filter bitmap for all vectors
         n_total = self.cpp_index.ntotal
@@ -184,21 +187,23 @@ class ACORNIndex:
         
         # Convert internal IDs to external doc_ids
         result_ids = []
-        for internal_id in labels[0]:
+        result_dists = []
+        for i, internal_id in enumerate(labels[0]):
             if 0 <= internal_id < len(self.cpp_doc_ids):
                 doc_id = self.cpp_doc_ids[internal_id]
                 if doc_id in self.current_ids:  # Check not deleted
                     result_ids.append(doc_id)
+                    result_dists.append(distances[0][i])
         
-        return result_ids[:k]
+        return result_ids[:k], result_dists[:k]
     
-    def _search_python(self, query_vec: np.ndarray, predicate: Callable[[Dict], bool], k: int) -> List[int]:
+    def _search_python(self, query_vec: np.ndarray, predicate: Callable[[Dict], bool], k: int) -> Tuple[List[int], List[float]]:
         """Pure Python brute force search."""
         # Filter vectors by predicate
         filtered_ids = [doc_id for doc_id in self.current_ids if predicate(self.metadata[doc_id])]
         
         if len(filtered_ids) == 0:
-            return []
+            return [], []
         
         # Compute distances for filtered vectors
         distances = []
@@ -209,7 +214,7 @@ class ACORNIndex:
         
         # Sort by distance and return top-k
         distances.sort(key=lambda x: x[0])
-        return [doc_id for _, doc_id in distances[:k]]
+        return [doc_id for _, doc_id in distances[:k]], [dist for dist, _ in distances[:k]]
     
     def build_index(self):
         """Build/optimize the index after bulk insertions."""
