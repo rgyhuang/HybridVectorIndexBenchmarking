@@ -59,6 +59,7 @@ class ACORNIndex:
         # C++ index state
         self.cpp_index = None
         self.cpp_doc_ids: List[int] = []  # Track insertion order
+        self.doc_id_to_internal: Dict[int, int] = {} # doc_id -> internal_id
         self.cpp_metadata_ints: List[int] = []  # Integer metadata for C++
         
         # Initialize C++ index if available
@@ -116,7 +117,9 @@ class ACORNIndex:
         
         if self.use_cpp and self.cpp_index is not None:
             # Add to C++ index
+            internal_id = len(self.cpp_doc_ids)
             self.cpp_doc_ids.append(doc_id)
+            self.doc_id_to_internal[doc_id] = internal_id
             self.cpp_metadata_ints.append(self._metadata_to_int(meta))
             
             # C++ index expects batched add, so we buffer single vectors
@@ -141,6 +144,19 @@ class ACORNIndex:
             
             if not self.use_cpp and doc_id in self.vectors:
                 del self.vectors[doc_id]
+            
+            # Call C++ delete_node if available
+            if self.use_cpp and self.cpp_index is not None:
+                if doc_id in self.doc_id_to_internal:
+                    internal_id = self.doc_id_to_internal[doc_id]
+                    try:
+                        self.cpp_index.delete_node(internal_id)
+                    except AttributeError:
+                        pass # delete_node might not be exposed yet if extension not rebuilt
+                    # del self.doc_id_to_internal[doc_id] # Keep mapping or remove? 
+                    # If we remove, we can't delete again. 
+                    # If we re-insert, we overwrite.
+                    pass
     
     def search(self, query_vec: np.ndarray, predicate: Callable[[Dict], bool], k: int = 10) -> Tuple[float, List[int], List[float]]:
         """

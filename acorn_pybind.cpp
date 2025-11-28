@@ -72,6 +72,7 @@ PYBIND11_MODULE(acorn_ext, m) {
             
             return py::make_tuple(distances, labels);
         })
+        .def("delete_node", &faiss::IndexACORN::delete_node)
         .def_readwrite("ntotal", &faiss::Index::ntotal)
         .def_readwrite("d", &faiss::Index::d)
         ;

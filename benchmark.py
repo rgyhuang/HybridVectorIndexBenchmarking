@@ -35,7 +35,7 @@ class AcornIndexWrapper(HybridIndex):
 
     def build(self, vectors, ids, attrs):
         # Loop insertion
-        for i in range(len(vectors)):
+        for i in tqdm(range(len(vectors)), desc="Building ACORN Index"):
             self.index.insert(vectors[i], {'category': int(attrs[i])}, int(ids[i]))
 
     def search(self, query, k, target_attr):
