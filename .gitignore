@@ -1,0 +1,25 @@
+# SIFT dataset files
+*.fvecs
+*.ivecs
+*.bvecs
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Build artifacts
+*.o
+*.a
+
+# IDE
+.vscode/
+.idea/
+
+# Logs and results (optional - uncomment if you don't want to track)
+# *.csv
+# *.png
