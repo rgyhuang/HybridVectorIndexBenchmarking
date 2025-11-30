@@ -1,0 +1,1426 @@
+Start testing: Nov 20 18:18 UTC
+----------------------------------------------------------
+1/85 Testing: BinaryFlat.accuracy
+1/85 Test: BinaryFlat.accuracy
+Command: "/home/ubuntu/HybridVectorIndexBenchmarking/ACORN/build/tests/faiss_test" "--gtest_filter=BinaryFlat.accuracy" "--gtest_also_run_disabled_tests"
+Directory: /home/ubuntu/HybridVectorIndexBenchmarking/ACORN/build/tests
+"BinaryFlat.accuracy" start time: Nov 20 18:18 UTC
+Output:
+----------------------------------------------------------
+WARNING clustering 1000 points to 40 centroids: please provide at least 1560 training points
+Running main() from /home/ubuntu/HybridVectorIndexBenchmarking/ACORN/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = BinaryFlat.accuracy
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BinaryFlat
+[ RUN      ] BinaryFlat.accuracy
+[       OK ] BinaryFlat.accuracy (1 ms)
+[----------] 1 test from BinaryFlat (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"BinaryFlat.accuracy" end time: Nov 20 18:18 UTC
+"BinaryFlat.accuracy" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/85 Testing: TestIvlistDealloc.IVFFlat
+2/85 Test: TestIvlistDealloc.IVFFlat
+Command: "/home/ubuntu/HybridVectorIndexBenchmarking/ACORN/build/tests/faiss_test" "--gtest_filter=TestIvlistDealloc.IVFFlat" "--gtest_also_run_disabled_tests"
+Directory: /home/ubuntu/HybridVectorIndexBenchmarking/ACORN/build/tests
+"TestIvlistDealloc.IVFFlat" start time: Nov 20 18:18 UTC
+Output:
+----------------------------------------------------------
+WARNING clustering 1000 points to 40 centroids: please provide at least 1560 training points
+Running main() from /home/ubuntu/HybridVectorIndexBenchmarking/ACORN/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TestIvlistDealloc.IVFFlat
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TestIvlistDealloc
+[ RUN      ] TestIvlistDealloc.IVFFlat
+[       OK ] TestIvlistDealloc.IVFFlat (134 ms)
+[----------] 1 test from TestIvlistDealloc (134 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (134 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.15 sec
+----------------------------------------------------------
+Test Passed.
+"TestIvlistDealloc.IVFFlat" end time: Nov 20 18:18 UTC
+"TestIvlistDealloc.IVFFlat" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/85 Testing: TestIvlistDealloc.IVFSQ
+3/85 Test: TestIvlistDealloc.IVFSQ
+Command: "/home/ubuntu/HybridVectorIndexBenchmarking/ACORN/build/tests/faiss_test" "--gtest_filter=TestIvlistDealloc.IVFSQ" "--gtest_also_run_disabled_tests"
+Directory: /home/ubuntu/HybridVectorIndexBenchmarking/ACORN/build/tests
+"TestIvlistDealloc.IVFSQ" start time: Nov 20 18:18 UTC
+Output:
+----------------------------------------------------------
+WARNING clustering 1000 points to 40 centroids: please provide at least 1560 training points
+Running main() from /home/ubuntu/HybridVectorIndexBenchmarking/ACORN/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TestIvlistDealloc.IVFSQ
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TestIvlistDealloc
+[ RUN      ] TestIvlistDealloc.IVFSQ
+[       OK ] TestIvlistDealloc.IVFSQ (135 ms)
+[----------] 1 test from TestIvlistDealloc (135 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (135 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.16 sec
+----------------------------------------------------------
+Test Passed.
+"TestIvlistDealloc.IVFSQ" end time: Nov 20 18:18 UTC
+"TestIvlistDealloc.IVFSQ" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/85 Testing: TestIvlistDealloc.IVFPQ
+4/85 Test: TestIvlistDealloc.IVFPQ
+Command: "/home/ubuntu/HybridVectorIndexBenchmarking/ACORN/build/tests/faiss_test" "--gtest_filter=TestIvlistDealloc.IVFPQ" "--gtest_also_run_disabled_tests"
+Directory: /home/ubuntu/HybridVectorIndexBenchmarking/ACORN/build/tests
+"TestIvlistDealloc.IVFPQ" start time: Nov 20 18:18 UTC
+Output:
+----------------------------------------------------------
+WARNING clustering 1000 points to 40 centroids: please provide at least 1560 training points
+Running main() from /home/ubuntu/HybridVectorIndexBenchmarking/ACORN/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TestIvlistDealloc.IVFPQ
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TestIvlistDealloc
+[ RUN      ] TestIvlistDealloc.IVFPQ
+WARNING clustering 5000 points to 256 centroids: please provide at least 9984 training points
+WARNING clustering 5000 points to 256 centroids: please provide at least 9984 training points
+WARNING clustering 5000 points to 256 centroids: please provide at least 9984 training points
+WARNING clustering 5000 points to 256 centroids: please provide at least 9984 training points
+[       OK ] TestIvlistDealloc.IVFPQ (440 ms)
+[----------] 1 test from TestIvlistDealloc (440 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (440 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.46 sec
+----------------------------------------------------------
+Test Passed.
+"TestIvlistDealloc.IVFPQ" end time: Nov 20 18:18 UTC
+"TestIvlistDealloc.IVFPQ" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/85 Testing: IVFPQ.codec
+5/85 Test: IVFPQ.codec
+Command: "/home/ubuntu/HybridVectorIndexBenchmarking/ACORN/build/tests/faiss_test" "--gtest_filter=IVFPQ.codec" "--gtest_also_run_disabled_tests"
+Directory: /home/ubuntu/HybridVectorIndexBenchmarking/ACORN/build/tests
+"IVFPQ.codec" start time: Nov 20 18:18 UTC
+Output:
+----------------------------------------------------------
+WARNING clustering 1000 points to 40 centroids: please provide at least 1560 training points
+Running main() from /home/ubuntu/HybridVectorIndexBenchmarking/ACORN/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = IVFPQ.codec
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from IVFPQ
+[ RUN      ] IVFPQ.codec
+WARNING clustering 8000 points to 256 centroids: please provide at least 9984 training points
+WARNING clustering 8000 points to 256 centroids: please provide at least 9984 training points
+WARNING clustering 8000 points to 256 centroids: please provide at least 9984 training points
+WARNING clustering 8000 points to 256 centroids: please provide at least 9984 training points
+WARNING clustering 8000 points to 256 centroids: please provide at least 9984 training points
+WARNING clustering 8000 points to 256 centroids: please provide at least 9984 training points
+WARNING clustering 8000 points to 256 centroids: please provide at least 9984 training points
+WARNING clustering 8000 points to 256 centroids: please provide at least 9984 training points
+WARNING clustering 8000 points to 256 centroids: please provide at least 9984 training points
+WARNING clustering 8000 points to 256 centroids: please provide at least 9984 training points
+WARNING clustering 8000 points to 256 centroids: please provide at least 9984 training points
+WARNING clustering 8000 points to 256 centroids: please provide at least 9984 training points
+WARNING clustering 8000 points to 256 centroids: please provide at least 9984 training points
+WARNING clustering 8000 points to 256 centroids: please provide at least 9984 training points
+WARNING clustering 8000 points to 256 centroids: please provide at least 9984 training points
+WARNING clustering 8000 points to 256 centroids: please provide at least 9984 training points
+WARNING clustering 8000 points to 256 centroids: please provide at least 9984 training points
+WARNING clustering 8000 points to 256 centroids: please provide at least 9984 training points
+WARNING clustering 8000 points to 256 centroids: please provide at least 9984 training points
+WARNING clustering 8000 points to 256 centroids: please provide at least 9984 training points
+WARNING clustering 8000 points to 256 centroids: please provide at least 9984 training points
+WARNING clustering 8000 points to 256 centroids: please provide at least 9984 training points
+WARNING clustering 8000 points to 256 centroids: please provide at least 9984 training points
+WARNING clustering 8000 points to 256 centroids: please provide at least 9984 training points
+WARNING clustering 8000 points to 256 centroids: please provide at least 9984 training points
+WARNING clustering 8000 points to 256 centroids: please provide at least 9984 training points
+WARNING clustering 8000 points to 256 centroids: please provide at least 9984 training points
+WARNING clustering 8000 points to 256 centroids: please provide at least 9984 training points
+WARNING clustering 8000 points to 256 centroids: please provide at least 9984 training points
+WARNING clustering 8000 points to 256 centroids: please provide at least 9984 training points
+WARNING clustering 8000 points to 256 centroids: please provide at least 9984 training points
+WARNING clustering 8000 points to 256 centroids: please provide at least 9984 training points
+[       OK ] IVFPQ.codec (1653 ms)
+[----------] 1 test from IVFPQ (1653 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1653 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   1.67 sec
+----------------------------------------------------------
+Test Passed.
+"IVFPQ.codec" end time: Nov 20 18:18 UTC
+"IVFPQ.codec" time elapsed: 00:00:01
+----------------------------------------------------------
+
+6/85 Testing: IVFPQ.accuracy
+6/85 Test: IVFPQ.accuracy
+Command: "/home/ubuntu/HybridVectorIndexBenchmarking/ACORN/build/tests/faiss_test" "--gtest_filter=IVFPQ.accuracy" "--gtest_also_run_disabled_tests"
+Directory: /home/ubuntu/HybridVectorIndexBenchmarking/ACORN/build/tests
+"IVFPQ.accuracy" start time: Nov 20 18:18 UTC
+Output:
+----------------------------------------------------------
+WARNING clustering 1000 points to 40 centroids: please provide at least 1560 training points
+Running main() from /home/ubuntu/HybridVectorIndexBenchmarking/ACORN/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = IVFPQ.accuracy
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from IVFPQ
+[ RUN      ] IVFPQ.accuracy
+WARNING clustering 1500 points to 256 centroids: please provide at least 9984 training points
+Training level-1 quantizer
+Training level-1 quantizer on 1500 vectors in 64D
+Training IVF residual
+computing residuals
+training 16x256 product quantizer on 1500 vectors in 64D
+Training PQ slice 0/16
+Clustering 1500 points in 4D to 256 clusters, redo 1 times, 25 iterations
+  Preprocessing in 0.00 s
+  Iteration 0 (0.00 s, search 0.00 s): objective=39.5783 imbalance=1.314 nsplit=0         Iteration 1 (0.00 s, search 0.00 s): objective=28.6375 imbalance=1.250 nsplit=0         Iteration 2 (0.00 s, search 0.00 s): objective=25.9073 imbalance=1.208 nsplit=0         Iteration 3 (0.01 s, search 0.01 s): objective=24.6718 imbalance=1.190 nsplit=0         Iteration 4 (0.01 s, search 0.01 s): objective=24.1787 imbalance=1.182 nsplit=0         Iteration 5 (0.01 s, search 0.01 s): objective=23.8748 imbalance=1.179 nsplit=0         Iteration 6 (0.01 s, search 0.01 s): objective=23.7034 imbalance=1.179 nsplit=0         Iteration 7 (0.01 s, search 0.01 s): objective=23.5844 imbalance=1.178 nsplit=0         Iteration 8 (0.01 s, search 0.01 s): objective=23.5272 imbalance=1.176 nsplit=0         Iteration 9 (0.01 s, search 0.01 s): objective=23.5178 imbalance=1.176 nsplit=0         Iteration 10 (0.01 s, search 0.01 s): objective=23.5178 imbalance=1.176 nsplit=0         Iteration 11 (0.01 s, search 0.01 s): objective=23.5178 imbalance=1.176 nsplit=0         Iteration 12 (0.01 s, search 0.01 s): objective=23.5178 imbalance=1.176 nsplit=0         Iteration 13 (0.02 s, search 0.02 s): objective=23.5178 imbalance=1.176 nsplit=0         Iteration 14 (0.02 s, search 0.02 s): objective=23.5178 imbalance=1.176 nsplit=0         Iteration 15 (0.02 s, search 0.02 s): objective=23.5178 imbalance=1.176 nsplit=0         Iteration 16 (0.02 s, search 0.02 s): objective=23.5178 imbalance=1.176 nsplit=0         Iteration 17 (0.02 s, search 0.02 s): objective=23.5178 imbalance=1.176 nsplit=0         Iteration 18 (0.02 s, search 0.02 s): objective=23.5178 imbalance=1.176 nsplit=0         Iteration 19 (0.02 s, search 0.02 s): objective=23.5178 imbalance=1.176 nsplit=0         Iteration 20 (0.02 s, search 0.02 s): objective=23.5178 imbalance=1.176 nsplit=0         Iteration 21 (0.02 s, search 0.02 s): objective=23.5178 imbalance=1.176 nsplit=0         Iteration 22 (0.03 s, search 0.02 s): objective=23.5178 imbalance=1.176 nsplit=0         Iteration 23 (0.03 s, search 0.02 s): objective=23.5178 imbalance=1.176 nsplit=0         Iteration 24 (0.03 s, search 0.03 s): objective=23.5178 imbalance=1.176 nsplit=0       WARNING clustering 1500 points to 256 centroids: please provide at least 9984 training points
+
+Training PQ slice 1/16
+Clustering 1500 points in 4D to 256 clusters, redo 1 times, 25 iterations
+  Preprocessing in 0.00 s
+  Iteration 0 (0.00 s, search 0.00 s): objective=39.8633 imbalance=1.304 nsplit=0         Iteration 1 (0.00 s, search 0.00 s): objective=28.2214 imbalance=1.233 nsplit=0         Iteration 2 (0.00 s, search 0.00 s): objective=25.7241 imbalance=1.209 nsplit=0         Iteration 3 (0.00 s, search 0.00 s): objective=24.5518 imbalance=1.201 nsplit=0         Iteration 4 (0.01 s, search 0.00 s): objective=24.0437 imbalance=1.192 nsplit=0         Iteration 5 (0.01 s, search 0.01 s): objective=23.7767 imbalance=1.193 nsplit=0         Iteration 6 (0.01 s, search 0.01 s): objective=23.5576 imbalance=1.194 nsplit=0         Iteration 7 (0.01 s, search 0.01 s): objective=23.5103 imbalance=1.193 nsplit=0         Iteration 8 (0.01 s, search 0.01 s): objective=23.4767 imbalance=1.194 nsplit=0         Iteration 9 (0.01 s, search 0.01 s): objective=23.4385 imbalance=1.194 nsplit=0         Iteration 10 (0.01 s, search 0.01 s): objective=23.3967 imbalance=1.195 nsplit=0         Iteration 11 (0.01 s, search 0.01 s): objective=23.3722 imbalance=1.195 nsplit=0         Iteration 12 (0.01 s, search 0.01 s): objective=23.3722 imbalance=1.195 nsplit=0         Iteration 13 (0.01 s, search 0.01 s): objective=23.3722 imbalance=1.195 nsplit=0         Iteration 14 (0.02 s, search 0.01 s): objective=23.3722 imbalance=1.195 nsplit=0         Iteration 15 (0.02 s, search 0.02 s): objective=23.3722 imbalance=1.195 nsplit=0         Iteration 16 (0.02 s, search 0.02 s): objective=23.3722 imbalance=1.195 nsplit=0         Iteration 17 (0.02 s, search 0.02 s): objective=23.3722 imbalance=1.195 nsplit=0         Iteration 18 (0.02 s, search 0.02 s): objective=23.3722 imbalance=1.195 nsplit=0         Iteration 19 (0.02 s, search 0.02 s): objective=23.3722 imbalance=1.195 nsplit=0         Iteration 20 (0.02 s, search 0.02 s): objective=23.3722 imbalance=1.195 nsplit=0         Iteration 21 (0.02 s, search 0.02 s): objective=23.3722 imbalance=1.195 nsplit=0         Iteration 22 (0.02 s, search 0.02 s): objective=23.3722 imbalance=1.195 nsplit=0         Iteration 23 (0.03 s, search 0.02 s): objective=23.3722 imbalance=1.195 nsplit=0         Iteration 24 (0.03 s, search 0.02 s): objective=23.3722 imbalance=1.195 nsplit=0       WARNING clustering 1500 points to 256 centroids: please provide at least 9984 training points
+
+Training PQ slice 2/16
+Clustering 1500 points in 4D to 256 clusters, redo 1 times, 25 iterations
+  Preprocessing in 0.00 s
+  Iteration 0 (0.00 s, search 0.00 s): objective=39.5398 imbalance=1.290 nsplit=0         Iteration 1 (0.00 s, search 0.00 s): objective=29.3722 imbalance=1.217 nsplit=0         Iteration 2 (0.00 s, search 0.00 s): objective=26.4268 imbalance=1.192 nsplit=0         Iteration 3 (0.00 s, search 0.00 s): objective=25.3663 imbalance=1.196 nsplit=0         Iteration 4 (0.01 s, search 0.00 s): objective=24.9094 imbalance=1.182 nsplit=0         Iteration 5 (0.01 s, search 0.01 s): objective=24.6998 imbalance=1.177 nsplit=0         Iteration 6 (0.01 s, search 0.01 s): objective=24.5665 imbalance=1.175 nsplit=0         Iteration 7 (0.01 s, search 0.01 s): objective=24.4584 imbalance=1.172 nsplit=0         Iteration 8 (0.01 s, search 0.01 s): objective=24.3925 imbalance=1.173 nsplit=0         Iteration 9 (0.01 s, search 0.01 s): objective=24.3749 imbalance=1.173 nsplit=0         Iteration 10 (0.01 s, search 0.01 s): objective=24.3749 imbalance=1.173 nsplit=0         Iteration 11 (0.01 s, search 0.01 s): objective=24.3749 imbalance=1.173 nsplit=0         Iteration 12 (0.01 s, search 0.01 s): objective=24.3749 imbalance=1.173 nsplit=0         Iteration 13 (0.01 s, search 0.01 s): objective=24.3749 imbalance=1.173 nsplit=0         Iteration 14 (0.02 s, search 0.01 s): objective=24.3749 imbalance=1.173 nsplit=0         Iteration 15 (0.02 s, search 0.02 s): objective=24.3749 imbalance=1.173 nsplit=0         Iteration 16 (0.02 s, search 0.02 s): objective=24.3749 imbalance=1.173 nsplit=0         Iteration 17 (0.02 s, search 0.02 s): objective=24.3749 imbalance=1.173 nsplit=0         Iteration 18 (0.02 s, search 0.02 s): objective=24.3749 imbalance=1.173 nsplit=0         Iteration 19 (0.02 s, search 0.02 s): objective=24.3749 imbalance=1.173 nsplit=0         Iteration 20 (0.02 s, search 0.02 s): objective=24.3749 imbalance=1.173 nsplit=0         Iteration 21 (0.02 s, search 0.02 s): objective=24.3749 imbalance=1.173 nsplit=0         Iteration 22 (0.02 s, search 0.02 s): objective=24.3749 imbalance=1.173 nsplit=0         Iteration 23 (0.02 s, search 0.02 s): objective=24.3749 imbalance=1.173 nsplit=0         Iteration 24 (0.03 s, search 0.02 s): objective=24.3749 imbalance=1.173 nsplit=0       WARNING clustering 1500 points to 256 centroids: please provide at least 9984 training points
+
+Training PQ slice 3/16
+Clustering 1500 points in 4D to 256 clusters, redo 1 times, 25 iterations
+  Preprocessing in 0.00 s
+  Iteration 0 (0.00 s, search 0.00 s): objective=37.6914 imbalance=1.323 nsplit=0         Iteration 1 (0.00 s, search 0.00 s): objective=27.5694 imbalance=1.254 nsplit=0         Iteration 2 (0.00 s, search 0.00 s): objective=25.3617 imbalance=1.245 nsplit=0         Iteration 3 (0.00 s, search 0.00 s): objective=24.2677 imbalance=1.237 nsplit=0         Iteration 4 (0.01 s, search 0.01 s): objective=23.7178 imbalance=1.238 nsplit=0         Iteration 5 (0.01 s, search 0.01 s): objective=23.5235 imbalance=1.238 nsplit=0         Iteration 6 (0.01 s, search 0.01 s): objective=23.3988 imbalance=1.236 nsplit=0         Iteration 7 (0.01 s, search 0.01 s): objective=23.3495 imbalance=1.237 nsplit=0         Iteration 8 (0.01 s, search 0.01 s): objective=23.3278 imbalance=1.237 nsplit=0         Iteration 9 (0.01 s, search 0.01 s): objective=23.312 imbalance=1.237 nsplit=0         Iteration 10 (0.01 s, search 0.01 s): objective=23.312 imbalance=1.237 nsplit=0         Iteration 11 (0.01 s, search 0.01 s): objective=23.312 imbalance=1.237 nsplit=0         Iteration 12 (0.01 s, search 0.01 s): objective=23.312 imbalance=1.237 nsplit=0         Iteration 13 (0.02 s, search 0.01 s): objective=23.312 imbalance=1.237 nsplit=0         Iteration 14 (0.02 s, search 0.01 s): objective=23.312 imbalance=1.237 nsplit=0         Iteration 15 (0.02 s, search 0.02 s): objective=23.312 imbalance=1.237 nsplit=0         Iteration 16 (0.02 s, search 0.02 s): objective=23.312 imbalance=1.237 nsplit=0         Iteration 17 (0.02 s, search 0.02 s): objective=23.312 imbalance=1.237 nsplit=0         Iteration 18 (0.02 s, search 0.02 s): objective=23.312 imbalance=1.237 nsplit=0         Iteration 19 (0.02 s, search 0.02 s): objective=23.312 imbalance=1.237 nsplit=0         Iteration 20 (0.02 s, search 0.02 s): objective=23.312 imbalance=1.237 nsplit=0         Iteration 21 (0.02 s, search 0.02 s): objective=23.312 imbalance=1.237 nsplit=0         Iteration 22 (0.02 s, search 0.02 s): objective=23.312 imbalance=1.237 nsplit=0         Iteration 23 (0.03 s, search 0.02 s): objective=23.312 imbalance=1.237 nsplit=0         Iteration 24 (0.03 s, search 0.02 s): objective=23.312 imbalance=1.237 nsplit=0       WARNING clustering 1500 points to 256 centroids: please provide at least 9984 training points
+
+Training PQ slice 4/16
+Clustering 1500 points in 4D to 256 clusters, redo 1 times, 25 iterations
+  Preprocessing in 0.00 s
+  Iteration 0 (0.00 s, search 0.00 s): objective=37.892 imbalance=1.321 nsplit=0         Iteration 1 (0.00 s, search 0.00 s): objective=28.3575 imbalance=1.231 nsplit=0         Iteration 2 (0.00 s, search 0.00 s): objective=26.0014 imbalance=1.209 nsplit=0         Iteration 3 (0.00 s, search 0.00 s): objective=25.0592 imbalance=1.201 nsplit=0         Iteration 4 (0.01 s, search 0.00 s): objective=24.6201 imbalance=1.201 nsplit=0         Iteration 5 (0.01 s, search 0.01 s): objective=24.4029 imbalance=1.199 nsplit=0         Iteration 6 (0.01 s, search 0.01 s): objective=24.318 imbalance=1.199 nsplit=0         Iteration 7 (0.01 s, search 0.01 s): objective=24.2629 imbalance=1.198 nsplit=0         Iteration 8 (0.01 s, search 0.01 s): objective=24.2507 imbalance=1.198 nsplit=0         Iteration 9 (0.01 s, search 0.01 s): objective=24.2507 imbalance=1.198 nsplit=0         Iteration 10 (0.01 s, search 0.01 s): objective=24.2507 imbalance=1.198 nsplit=0         Iteration 11 (0.01 s, search 0.01 s): objective=24.2507 imbalance=1.198 nsplit=0         Iteration 12 (0.01 s, search 0.01 s): objective=24.2507 imbalance=1.198 nsplit=0         Iteration 13 (0.01 s, search 0.01 s): objective=24.2507 imbalance=1.198 nsplit=0         Iteration 14 (0.02 s, search 0.01 s): objective=24.2507 imbalance=1.198 nsplit=0         Iteration 15 (0.02 s, search 0.02 s): objective=24.2507 imbalance=1.198 nsplit=0         Iteration 16 (0.02 s, search 0.02 s): objective=24.2507 imbalance=1.198 nsplit=0         Iteration 17 (0.02 s, search 0.02 s): objective=24.2507 imbalance=1.198 nsplit=0         Iteration 18 (0.02 s, search 0.02 s): objective=24.2507 imbalance=1.198 nsplit=0         Iteration 19 (0.02 s, search 0.02 s): objective=24.2507 imbalance=1.198 nsplit=0         Iteration 20 (0.02 s, search 0.02 s): objective=24.2507 imbalance=1.198 nsplit=0         Iteration 21 (0.02 s, search 0.02 s): objective=24.2507 imbalance=1.198 nsplit=0         Iteration 22 (0.02 s, search 0.02 s): objective=24.2507 imbalance=1.198 nsplit=0         Iteration 23 (0.03 s, search 0.02 s): objective=24.2507 imbalance=1.198 nsplit=0         Iteration 24 (0.03 s, search 0.02 s): objective=24.2507 imbalance=1.198 nsplit=0       WARNING clustering 1500 points to 256 centroids: please provide at least 9984 training points
+
+Training PQ slice 5/16
+Clustering 1500 points in 4D to 256 clusters, redo 1 times, 25 iterations
+  Preprocessing in 0.00 s
+  Iteration 0 (0.00 s, search 0.00 s): objective=38.4279 imbalance=1.331 nsplit=0         Iteration 1 (0.00 s, search 0.00 s): objective=28.2425 imbalance=1.238 nsplit=0         Iteration 2 (0.00 s, search 0.00 s): objective=25.4509 imbalance=1.217 nsplit=0         Iteration 3 (0.00 s, search 0.00 s): objective=24.4239 imbalance=1.206 nsplit=0         Iteration 4 (0.01 s, search 0.00 s): objective=23.901 imbalance=1.202 nsplit=0         Iteration 5 (0.01 s, search 0.01 s): objective=23.6527 imbalance=1.201 nsplit=0         Iteration 6 (0.01 s, search 0.01 s): objective=23.6052 imbalance=1.200 nsplit=0         Iteration 7 (0.01 s, search 0.01 s): objective=23.5834 imbalance=1.200 nsplit=0         Iteration 8 (0.01 s, search 0.01 s): objective=23.5765 imbalance=1.200 nsplit=0         Iteration 9 (0.01 s, search 0.01 s): objective=23.5765 imbalance=1.200 nsplit=0         Iteration 10 (0.01 s, search 0.01 s): objective=23.5765 imbalance=1.200 nsplit=0         Iteration 11 (0.01 s, search 0.01 s): objective=23.5765 imbalance=1.200 nsplit=0         Iteration 12 (0.01 s, search 0.01 s): objective=23.5765 imbalance=1.200 nsplit=0         Iteration 13 (0.01 s, search 0.01 s): objective=23.5765 imbalance=1.200 nsplit=0         Iteration 14 (0.02 s, search 0.01 s): objective=23.5765 imbalance=1.200 nsplit=0         Iteration 15 (0.02 s, search 0.02 s): objective=23.5765 imbalance=1.200 nsplit=0         Iteration 16 (0.02 s, search 0.02 s): objective=23.5765 imbalance=1.200 nsplit=0         Iteration 17 (0.02 s, search 0.02 s): objective=23.5765 imbalance=1.200 nsplit=0         Iteration 18 (0.02 s, search 0.02 s): objective=23.5765 imbalance=1.200 nsplit=0         Iteration 19 (0.02 s, search 0.02 s): objective=23.5765 imbalance=1.200 nsplit=0         Iteration 20 (0.02 s, search 0.02 s): objective=23.5765 imbalance=1.200 nsplit=0         Iteration 21 (0.02 s, search 0.02 s): objective=23.5765 imbalance=1.200 nsplit=0         Iteration 22 (0.02 s, search 0.02 s): objective=23.5765 imbalance=1.200 nsplit=0         Iteration 23 (0.02 s, search 0.02 s): objective=23.5765 imbalance=1.200 nsplit=0         Iteration 24 (0.03 s, search 0.02 s): objective=23.5765 imbalance=1.200 nsplit=0       WARNING clustering 1500 points to 256 centroids: please provide at least 9984 training points
+
+Training PQ slice 6/16
+Clustering 1500 points in 4D to 256 clusters, redo 1 times, 25 iterations
+  Preprocessing in 0.00 s
+  Iteration 0 (0.00 s, search 0.00 s): objective=37.1618 imbalance=1.249 nsplit=0         Iteration 1 (0.00 s, search 0.00 s): objective=27.911 imbalance=1.211 nsplit=0         Iteration 2 (0.00 s, search 0.00 s): objective=25.2805 imbalance=1.198 nsplit=0         Iteration 3 (0.00 s, search 0.00 s): objective=24.2525 imbalance=1.185 nsplit=0         Iteration 4 (0.01 s, search 0.00 s): objective=23.7948 imbalance=1.177 nsplit=0         Iteration 5 (0.01 s, search 0.01 s): objective=23.4615 imbalance=1.177 nsplit=0         Iteration 6 (0.01 s, search 0.01 s): objective=23.3163 imbalance=1.178 nsplit=0         Iteration 7 (0.01 s, search 0.01 s): objective=23.289 imbalance=1.177 nsplit=0         Iteration 8 (0.01 s, search 0.01 s): objective=23.2667 imbalance=1.177 nsplit=0         Iteration 9 (0.01 s, search 0.01 s): objective=23.2667 imbalance=1.177 nsplit=0         Iteration 10 (0.01 s, search 0.01 s): objective=23.2667 imbalance=1.177 nsplit=0         Iteration 11 (0.01 s, search 0.01 s): objective=23.2667 imbalance=1.177 nsplit=0         Iteration 12 (0.01 s, search 0.01 s): objective=23.2667 imbalance=1.177 nsplit=0         Iteration 13 (0.01 s, search 0.01 s): objective=23.2667 imbalance=1.177 nsplit=0         Iteration 14 (0.02 s, search 0.01 s): objective=23.2667 imbalance=1.177 nsplit=0         Iteration 15 (0.02 s, search 0.02 s): objective=23.2667 imbalance=1.177 nsplit=0         Iteration 16 (0.02 s, search 0.02 s): objective=23.2667 imbalance=1.177 nsplit=0         Iteration 17 (0.02 s, search 0.02 s): objective=23.2667 imbalance=1.177 nsplit=0         Iteration 18 (0.02 s, search 0.02 s): objective=23.2667 imbalance=1.177 nsplit=0         Iteration 19 (0.02 s, search 0.02 s): objective=23.2667 imbalance=1.177 nsplit=0         Iteration 20 (0.02 s, search 0.02 s): objective=23.2667 imbalance=1.177 nsplit=0         Iteration 21 (0.02 s, search 0.02 s): objective=23.2667 imbalance=1.177 nsplit=0         Iteration 22 (0.02 s, search 0.02 s): objective=23.2667 imbalance=1.177 nsplit=0         Iteration 23 (0.03 s, search 0.02 s): objective=23.2667 imbalance=1.177 nsplit=0         Iteration 24 (0.03 s, search 0.02 s): objective=23.2667 imbalance=1.177 nsplit=0       WARNING clustering 1500 points to 256 centroids: please provide at least 9984 training points
+
+Training PQ slice 7/16
+Clustering 1500 points in 4D to 256 clusters, redo 1 times, 25 iterations
+  Preprocessing in 0.00 s
+  Iteration 0 (0.00 s, search 0.00 s): objective=36.905 imbalance=1.266 nsplit=0         Iteration 1 (0.00 s, search 0.00 s): objective=27.0499 imbalance=1.231 nsplit=0         Iteration 2 (0.00 s, search 0.00 s): objective=24.9514 imbalance=1.188 nsplit=0         Iteration 3 (0.00 s, search 0.00 s): objective=23.8459 imbalance=1.179 nsplit=0         Iteration 4 (0.01 s, search 0.00 s): objective=23.3532 imbalance=1.176 nsplit=0         Iteration 5 (0.01 s, search 0.01 s): objective=23.1569 imbalance=1.175 nsplit=0         Iteration 6 (0.01 s, search 0.01 s): objective=23.0353 imbalance=1.172 nsplit=0         Iteration 7 (0.01 s, search 0.01 s): objective=22.9874 imbalance=1.172 nsplit=0         Iteration 8 (0.01 s, search 0.01 s): objective=22.9779 imbalance=1.173 nsplit=0         Iteration 9 (0.01 s, search 0.01 s): objective=22.9671 imbalance=1.173 nsplit=0         Iteration 10 (0.01 s, search 0.01 s): objective=22.9671 imbalance=1.173 nsplit=0         Iteration 11 (0.01 s, search 0.01 s): objective=22.9671 imbalance=1.173 nsplit=0         Iteration 12 (0.01 s, search 0.01 s): objective=22.9671 imbalance=1.173 nsplit=0         Iteration 13 (0.01 s, search 0.01 s): objective=22.9671 imbalance=1.173 nsplit=0         Iteration 14 (0.02 s, search 0.01 s): objective=22.9671 imbalance=1.173 nsplit=0         Iteration 15 (0.02 s, search 0.02 s): objective=22.9671 imbalance=1.173 nsplit=0         Iteration 16 (0.02 s, search 0.02 s): objective=22.9671 imbalance=1.173 nsplit=0         Iteration 17 (0.02 s, search 0.02 s): objective=22.9671 imbalance=1.173 nsplit=0         Iteration 18 (0.02 s, search 0.02 s): objective=22.9671 imbalance=1.173 nsplit=0         Iteration 19 (0.02 s, search 0.02 s): objective=22.9671 imbalance=1.173 nsplit=0         Iteration 20 (0.02 s, search 0.02 s): objective=22.9671 imbalance=1.173 nsplit=0         Iteration 21 (0.02 s, search 0.02 s): objective=22.9671 imbalance=1.173 nsplit=0         Iteration 22 (0.02 s, search 0.02 s): objective=22.9671 imbalance=1.173 nsplit=0         Iteration 23 (0.02 s, search 0.02 s): objective=22.9671 imbalance=1.173 nsplit=0         Iteration 24 (0.03 s, search 0.02 s): objective=22.9671 imbalance=1.173 nsplit=0       WARNING clustering 1500 points to 256 centroids: please provide at least 9984 training points
+
+Training PQ slice 8/16
+Clustering 1500 points in 4D to 256 clusters, redo 1 times, 25 iterations
+  Preprocessing in 0.00 s
+  Iteration 0 (0.00 s, search 0.00 s): objective=36.5179 imbalance=1.273 nsplit=0         Iteration 1 (0.00 s, search 0.00 s): objective=26.2879 imbalance=1.215 nsplit=0         Iteration 2 (0.00 s, search 0.00 s): objective=24.2173 imbalance=1.202 nsplit=0         Iteration 3 (0.00 s, search 0.00 s): objective=23.5591 imbalance=1.195 nsplit=0         Iteration 4 (0.01 s, search 0.00 s): objective=23.3098 imbalance=1.191 nsplit=0         Iteration 5 (0.01 s, search 0.01 s): objective=23.1434 imbalance=1.190 nsplit=0         Iteration 6 (0.01 s, search 0.01 s): objective=23.0653 imbalance=1.191 nsplit=0         Iteration 7 (0.01 s, search 0.01 s): objective=23.027 imbalance=1.189 nsplit=0         Iteration 8 (0.01 s, search 0.01 s): objective=23.0105 imbalance=1.189 nsplit=0         Iteration 9 (0.01 s, search 0.01 s): objective=23.0065 imbalance=1.189 nsplit=0         Iteration 10 (0.01 s, search 0.01 s): objective=23.0065 imbalance=1.189 nsplit=0         Iteration 11 (0.01 s, search 0.01 s): objective=23.0065 imbalance=1.189 nsplit=0         Iteration 12 (0.01 s, search 0.01 s): objective=23.0065 imbalance=1.189 nsplit=0         Iteration 13 (0.01 s, search 0.01 s): objective=23.0065 imbalance=1.189 nsplit=0         Iteration 14 (0.02 s, search 0.01 s): objective=23.0065 imbalance=1.189 nsplit=0         Iteration 15 (0.02 s, search 0.02 s): objective=23.0065 imbalance=1.189 nsplit=0         Iteration 16 (0.02 s, search 0.02 s): objective=23.0065 imbalance=1.189 nsplit=0         Iteration 17 (0.02 s, search 0.02 s): objective=23.0065 imbalance=1.189 nsplit=0         Iteration 18 (0.02 s, search 0.02 s): objective=23.0065 imbalance=1.189 nsplit=0         Iteration 19 (0.02 s, search 0.02 s): objective=23.0065 imbalance=1.189 nsplit=0         Iteration 20 (0.02 s, search 0.02 s): objective=23.0065 imbalance=1.189 nsplit=0         Iteration 21 (0.02 s, search 0.02 s): objective=23.0065 imbalance=1.189 nsplit=0         Iteration 22 (0.02 s, search 0.02 s): objective=23.0065 imbalance=1.189 nsplit=0         Iteration 23 (0.02 s, search 0.02 s): objective=23.0065 imbalance=1.189 nsplit=0         Iteration 24 (0.03 s, search 0.02 s): objective=23.0065 imbalance=1.189 nsplit=0       WARNING clustering 1500 points to 256 centroids: please provide at least 9984 training points
+
+Training PQ slice 9/16
+Clustering 1500 points in 4D to 256 clusters, redo 1 times, 25 iterations
+  Preprocessing in 0.00 s
+  Iteration 0 (0.00 s, search 0.00 s): objective=39.2767 imbalance=1.292 nsplit=0         Iteration 1 (0.00 s, search 0.00 s): objective=28.3224 imbalance=1.230 nsplit=0         Iteration 2 (0.00 s, search 0.00 s): objective=25.9076 imbalance=1.221 nsplit=0         Iteration 3 (0.00 s, search 0.00 s): objective=24.9816 imbalance=1.222 nsplit=0         Iteration 4 (0.01 s, search 0.00 s): objective=24.503 imbalance=1.214 nsplit=0         Iteration 5 (0.01 s, search 0.01 s): objective=24.2739 imbalance=1.209 nsplit=0         Iteration 6 (0.01 s, search 0.01 s): objective=24.1705 imbalance=1.206 nsplit=0         Iteration 7 (0.01 s, search 0.01 s): objective=24.0995 imbalance=1.206 nsplit=0         Iteration 8 (0.01 s, search 0.01 s): objective=24.0697 imbalance=1.206 nsplit=0         Iteration 9 (0.01 s, search 0.01 s): objective=24.0497 imbalance=1.206 nsplit=0         Iteration 10 (0.01 s, search 0.01 s): objective=24.0497 imbalance=1.206 nsplit=0         Iteration 11 (0.01 s, search 0.01 s): objective=24.0497 imbalance=1.206 nsplit=0         Iteration 12 (0.01 s, search 0.01 s): objective=24.0497 imbalance=1.206 nsplit=0         Iteration 13 (0.01 s, search 0.01 s): objective=24.0497 imbalance=1.206 nsplit=0         Iteration 14 (0.02 s, search 0.01 s): objective=24.0497 imbalance=1.206 nsplit=0         Iteration 15 (0.02 s, search 0.02 s): objective=24.0497 imbalance=1.206 nsplit=0         Iteration 16 (0.02 s, search 0.02 s): objective=24.0497 imbalance=1.206 nsplit=0         Iteration 17 (0.02 s, search 0.02 s): objective=24.0497 imbalance=1.206 nsplit=0         Iteration 18 (0.02 s, search 0.02 s): objective=24.0497 imbalance=1.206 nsplit=0         Iteration 19 (0.02 s, search 0.02 s): objective=24.0497 imbalance=1.206 nsplit=0         Iteration 20 (0.02 s, search 0.02 s): objective=24.0497 imbalance=1.206 nsplit=0         Iteration 21 (0.02 s, search 0.02 s): objective=24.0497 imbalance=1.206 nsplit=0         Iteration 22 (0.02 s, search 0.02 s): objective=24.0497 imbalance=1.206 nsplit=0         Iteration 23 (0.03 s, search 0.02 s): objective=24.0497 imbalance=1.206 nsplit=0         Iteration 24 (0.03 s, search 0.02 s): objective=24.0497 imbalance=1.206 nsplit=0       WARNING clustering 1500 points to 256 centroids: please provide at least 9984 training points
+
+Training PQ slice 10/16
+Clustering 1500 points in 4D to 256 clusters, redo 1 times, 25 iterations
+  Preprocessing in 0.00 s
+  Iteration 0 (0.00 s, search 0.00 s): objective=36.5263 imbalance=1.254 nsplit=0         Iteration 1 (0.00 s, search 0.00 s): objective=27.2586 imbalance=1.224 nsplit=0         Iteration 2 (0.00 s, search 0.00 s): objective=24.8787 imbalance=1.211 nsplit=0         Iteration 3 (0.01 s, search 0.00 s): objective=24.0081 imbalance=1.209 nsplit=0         Iteration 4 (0.01 s, search 0.00 s): objective=23.6501 imbalance=1.205 nsplit=0         Iteration 5 (0.01 s, search 0.01 s): objective=23.4435 imbalance=1.203 nsplit=0         Iteration 6 (0.01 s, search 0.01 s): objective=23.3656 imbalance=1.201 nsplit=0         Iteration 7 (0.01 s, search 0.01 s): objective=23.3324 imbalance=1.201 nsplit=0         Iteration 8 (0.01 s, search 0.01 s): objective=23.3256 imbalance=1.201 nsplit=0         Iteration 9 (0.01 s, search 0.01 s): objective=23.3256 imbalance=1.201 nsplit=0         Iteration 10 (0.01 s, search 0.01 s): objective=23.3256 imbalance=1.201 nsplit=0         Iteration 11 (0.01 s, search 0.01 s): objective=23.3256 imbalance=1.201 nsplit=0         Iteration 12 (0.01 s, search 0.01 s): objective=23.3256 imbalance=1.201 nsplit=0         Iteration 13 (0.02 s, search 0.01 s): objective=23.3256 imbalance=1.201 nsplit=0         Iteration 14 (0.02 s, search 0.01 s): objective=23.3256 imbalance=1.201 nsplit=0         Iteration 15 (0.02 s, search 0.02 s): objective=23.3256 imbalance=1.201 nsplit=0         Iteration 16 (0.02 s, search 0.02 s): objective=23.3256 imbalance=1.201 nsplit=0         Iteration 17 (0.02 s, search 0.02 s): objective=23.3256 imbalance=1.201 nsplit=0         Iteration 18 (0.02 s, search 0.02 s): objective=23.3256 imbalance=1.201 nsplit=0         Iteration 19 (0.02 s, search 0.02 s): objective=23.3256 imbalance=1.201 nsplit=0         Iteration 20 (0.02 s, search 0.02 s): objective=23.3256 imbalance=1.201 nsplit=0         Iteration 21 (0.02 s, search 0.02 s): objective=23.3256 imbalance=1.201 nsplit=0         Iteration 22 (0.03 s, search 0.02 s): objective=23.3256 imbalance=1.201 nsplit=0         Iteration 23 (0.03 s, search 0.02 s): objective=23.3256 imbalance=1.201 nsplit=0         Iteration 24 (0.03 s, search 0.02 s): objective=23.3256 imbalance=1.201 nsplit=0       WARNING clustering 1500 points to 256 centroids: please provide at least 9984 training points
+
+Training PQ slice 11/16
+Clustering 1500 points in 4D to 256 clusters, redo 1 times, 25 iterations
+  Preprocessing in 0.00 s
+  Iteration 0 (0.00 s, search 0.00 s): objective=38.3445 imbalance=1.263 nsplit=0         Iteration 1 (0.00 s, search 0.00 s): objective=27.9012 imbalance=1.207 nsplit=0         Iteration 2 (0.00 s, search 0.00 s): objective=25.7657 imbalance=1.208 nsplit=0         Iteration 3 (0.00 s, search 0.00 s): objective=25.0332 imbalance=1.200 nsplit=0         Iteration 4 (0.01 s, search 0.00 s): objective=24.6108 imbalance=1.195 nsplit=0         Iteration 5 (0.01 s, search 0.01 s): objective=24.2187 imbalance=1.192 nsplit=0         Iteration 6 (0.01 s, search 0.01 s): objective=24.0321 imbalance=1.194 nsplit=0         Iteration 7 (0.01 s, search 0.01 s): objective=23.8943 imbalance=1.191 nsplit=0         Iteration 8 (0.01 s, search 0.01 s): objective=23.806 imbalance=1.187 nsplit=0         Iteration 9 (0.01 s, search 0.01 s): objective=23.7351 imbalance=1.189 nsplit=0         Iteration 10 (0.01 s, search 0.01 s): objective=23.6904 imbalance=1.189 nsplit=0         Iteration 11 (0.01 s, search 0.01 s): objective=23.674 imbalance=1.189 nsplit=0         Iteration 12 (0.01 s, search 0.01 s): objective=23.6505 imbalance=1.188 nsplit=0         Iteration 13 (0.01 s, search 0.01 s): objective=23.6005 imbalance=1.189 nsplit=0         Iteration 14 (0.02 s, search 0.01 s): objective=23.5838 imbalance=1.188 nsplit=0         Iteration 15 (0.02 s, search 0.02 s): objective=23.5708 imbalance=1.188 nsplit=0         Iteration 16 (0.02 s, search 0.02 s): objective=23.5708 imbalance=1.188 nsplit=0         Iteration 17 (0.02 s, search 0.02 s): objective=23.5708 imbalance=1.188 nsplit=0         Iteration 18 (0.02 s, search 0.02 s): objective=23.5708 imbalance=1.188 nsplit=0         Iteration 19 (0.02 s, search 0.02 s): objective=23.5708 imbalance=1.188 nsplit=0         Iteration 20 (0.02 s, search 0.02 s): objective=23.5708 imbalance=1.188 nsplit=0         Iteration 21 (0.02 s, search 0.02 s): objective=23.5708 imbalance=1.188 nsplit=0         Iteration 22 (0.02 s, search 0.02 s): objective=23.5708 imbalance=1.188 nsplit=0         Iteration 23 (0.03 s, search 0.02 s): objective=23.5708 imbalance=1.188 nsplit=0         Iteration 24 (0.03 s, search 0.02 s): objective=23.5708 imbalance=1.188 nsplit=0       WARNING clustering 1500 points to 256 centroids: please provide at least 9984 training points
+
+Training PQ slice 12/16
+Clustering 1500 points in 4D to 256 clusters, redo 1 times, 25 iterations
+  Preprocessing in 0.00 s
+  Iteration 0 (0.00 s, search 0.00 s): objective=38.3184 imbalance=1.295 nsplit=0         Iteration 1 (0.00 s, search 0.00 s): objective=28.4042 imbalance=1.222 nsplit=0         Iteration 2 (0.00 s, search 0.00 s): objective=26.1514 imbalance=1.202 nsplit=0         Iteration 3 (0.00 s, search 0.00 s): objective=25.2165 imbalance=1.196 nsplit=0         Iteration 4 (0.01 s, search 0.01 s): objective=24.715 imbalance=1.196 nsplit=0         Iteration 5 (0.01 s, search 0.01 s): objective=24.4206 imbalance=1.197 nsplit=0         Iteration 6 (0.01 s, search 0.01 s): objective=24.3025 imbalance=1.198 nsplit=0         Iteration 7 (0.01 s, search 0.01 s): objective=24.2584 imbalance=1.197 nsplit=0         Iteration 8 (0.01 s, search 0.01 s): objective=24.2501 imbalance=1.197 nsplit=0         Iteration 9 (0.01 s, search 0.01 s): objective=24.2501 imbalance=1.197 nsplit=0         Iteration 10 (0.01 s, search 0.01 s): objective=24.2501 imbalance=1.197 nsplit=0         Iteration 11 (0.01 s, search 0.01 s): objective=24.2501 imbalance=1.197 nsplit=0         Iteration 12 (0.01 s, search 0.01 s): objective=24.2501 imbalance=1.197 nsplit=0         Iteration 13 (0.01 s, search 0.01 s): objective=24.2501 imbalance=1.197 nsplit=0         Iteration 14 (0.02 s, search 0.01 s): objective=24.2501 imbalance=1.197 nsplit=0         Iteration 15 (0.02 s, search 0.02 s): objective=24.2501 imbalance=1.197 nsplit=0         Iteration 16 (0.02 s, search 0.02 s): objective=24.2501 imbalance=1.197 nsplit=0         Iteration 17 (0.02 s, search 0.02 s): objective=24.2501 imbalance=1.197 nsplit=0         Iteration 18 (0.02 s, search 0.02 s): objective=24.2501 imbalance=1.197 nsplit=0         Iteration 19 (0.02 s, search 0.02 s): objective=24.2501 imbalance=1.197 nsplit=0         Iteration 20 (0.02 s, search 0.02 s): objective=24.2501 imbalance=1.197 nsplit=0         Iteration 21 (0.02 s, search 0.02 s): objective=24.2501 imbalance=1.197 nsplit=0         Iteration 22 (0.02 s, search 0.02 s): objective=24.2501 imbalance=1.197 nsplit=0         Iteration 23 (0.02 s, search 0.02 s): objective=24.2501 imbalance=1.197 nsplit=0         Iteration 24 (0.03 s, search 0.02 s): objective=24.2501 imbalance=1.197 nsplit=0       WARNING clustering 1500 points to 256 centroids: please provide at least 9984 training points
+
+Training PQ slice 13/16
+Clustering 1500 points in 4D to 256 clusters, redo 1 times, 25 iterations
+  Preprocessing in 0.00 s
+  Iteration 0 (0.00 s, search 0.00 s): objective=39.4318 imbalance=1.289 nsplit=0         Iteration 1 (0.00 s, search 0.00 s): objective=27.9498 imbalance=1.215 nsplit=0         Iteration 2 (0.00 s, search 0.00 s): objective=25.4618 imbalance=1.194 nsplit=0         Iteration 3 (0.00 s, search 0.00 s): objective=24.5546 imbalance=1.197 nsplit=0         Iteration 4 (0.01 s, search 0.00 s): objective=24.1822 imbalance=1.193 nsplit=0         Iteration 5 (0.01 s, search 0.01 s): objective=24.0744 imbalance=1.191 nsplit=0         Iteration 6 (0.01 s, search 0.01 s): objective=24.0399 imbalance=1.191 nsplit=0         Iteration 7 (0.01 s, search 0.01 s): objective=24.0321 imbalance=1.191 nsplit=0         Iteration 8 (0.01 s, search 0.01 s): objective=24.0256 imbalance=1.191 nsplit=0         Iteration 9 (0.01 s, search 0.01 s): objective=24.0256 imbalance=1.191 nsplit=0         Iteration 10 (0.01 s, search 0.01 s): objective=24.0256 imbalance=1.191 nsplit=0         Iteration 11 (0.01 s, search 0.01 s): objective=24.0256 imbalance=1.191 nsplit=0         Iteration 12 (0.01 s, search 0.01 s): objective=24.0256 imbalance=1.191 nsplit=0         Iteration 13 (0.01 s, search 0.01 s): objective=24.0256 imbalance=1.191 nsplit=0         Iteration 14 (0.02 s, search 0.01 s): objective=24.0256 imbalance=1.191 nsplit=0         Iteration 15 (0.02 s, search 0.02 s): objective=24.0256 imbalance=1.191 nsplit=0         Iteration 16 (0.02 s, search 0.02 s): objective=24.0256 imbalance=1.191 nsplit=0         Iteration 17 (0.02 s, search 0.02 s): objective=24.0256 imbalance=1.191 nsplit=0         Iteration 18 (0.02 s, search 0.02 s): objective=24.0256 imbalance=1.191 nsplit=0         Iteration 19 (0.02 s, search 0.02 s): objective=24.0256 imbalance=1.191 nsplit=0         Iteration 20 (0.02 s, search 0.02 s): objective=24.0256 imbalance=1.191 nsplit=0         Iteration 21 (0.02 s, search 0.02 s): objective=24.0256 imbalance=1.191 nsplit=0         Iteration 22 (0.02 s, search 0.02 s): objective=24.0256 imbalance=1.191 nsplit=0         Iteration 23 (0.03 s, search 0.02 s): objective=24.0256 imbalance=1.191 nsplit=0         Iteration 24 (0.03 s, search 0.02 s): objective=24.0256 imbalance=1.191 nsplit=0       WARNING clustering 1500 points to 256 centroids: please provide at least 9984 training points
+
+Training PQ slice 14/16
+Clustering 1500 points in 4D to 256 clusters, redo 1 times, 25 iterations
+  Preprocessing in 0.00 s
+  Iteration 0 (0.00 s, search 0.00 s): objective=38.6269 imbalance=1.277 nsplit=0         Iteration 1 (0.00 s, search 0.00 s): objective=27.8811 imbalance=1.213 nsplit=0         Iteration 2 (0.00 s, search 0.00 s): objective=25.571 imbalance=1.209 nsplit=0         Iteration 3 (0.00 s, search 0.00 s): objective=24.5173 imbalance=1.209 nsplit=0         Iteration 4 (0.01 s, search 0.00 s): objective=24.1507 imbalance=1.207 nsplit=0         Iteration 5 (0.01 s, search 0.01 s): objective=23.9021 imbalance=1.210 nsplit=0         Iteration 6 (0.01 s, search 0.01 s): objective=23.8475 imbalance=1.210 nsplit=0         Iteration 7 (0.01 s, search 0.01 s): objective=23.8475 imbalance=1.210 nsplit=0         Iteration 8 (0.01 s, search 0.01 s): objective=23.8475 imbalance=1.210 nsplit=0         Iteration 9 (0.01 s, search 0.01 s): objective=23.8475 imbalance=1.210 nsplit=0         Iteration 10 (0.01 s, search 0.01 s): objective=23.8475 imbalance=1.210 nsplit=0         Iteration 11 (0.01 s, search 0.01 s): objective=23.8475 imbalance=1.210 nsplit=0         Iteration 12 (0.01 s, search 0.01 s): objective=23.8475 imbalance=1.210 nsplit=0         Iteration 13 (0.01 s, search 0.01 s): objective=23.8475 imbalance=1.210 nsplit=0         Iteration 14 (0.02 s, search 0.01 s): objective=23.8475 imbalance=1.210 nsplit=0         Iteration 15 (0.02 s, search 0.02 s): objective=23.8475 imbalance=1.210 nsplit=0         Iteration 16 (0.02 s, search 0.02 s): objective=23.8475 imbalance=1.210 nsplit=0         Iteration 17 (0.02 s, search 0.02 s): objective=23.8475 imbalance=1.210 nsplit=0         Iteration 18 (0.02 s, search 0.02 s): objective=23.8475 imbalance=1.210 nsplit=0         Iteration 19 (0.02 s, search 0.02 s): objective=23.8475 imbalance=1.210 nsplit=0         Iteration 20 (0.02 s, search 0.02 s): objective=23.8475 imbalance=1.210 nsplit=0         Iteration 21 (0.02 s, search 0.02 s): objective=23.8475 imbalance=1.210 nsplit=0         Iteration 22 (0.02 s, search 0.02 s): objective=23.8475 imbalance=1.210 nsplit=0         Iteration 23 (0.02 s, search 0.02 s): objective=23.8475 imbalance=1.210 nsplit=0         Iteration 24 (0.03 s, search 0.02 s): objective=23.8475 imbalance=1.210 nsplit=0       WARNING clustering 1500 points to 256 centroids: please provide at least 9984 training points
+
+Training PQ slice 15/16
+Clustering 1500 points in 4D to 256 clusters, redo 1 times, 25 iterations
+  Preprocessing in 0.00 s
+  Iteration 0 (0.00 s, search 0.00 s): objective=37.352 imbalance=1.253 nsplit=0         Iteration 1 (0.00 s, search 0.00 s): objective=27.8696 imbalance=1.206 nsplit=0         Iteration 2 (0.00 s, search 0.00 s): objective=25.8346 imbalance=1.192 nsplit=0         Iteration 3 (0.00 s, search 0.00 s): objective=24.7814 imbalance=1.181 nsplit=0         Iteration 4 (0.01 s, search 0.00 s): objective=24.1178 imbalance=1.174 nsplit=0         Iteration 5 (0.01 s, search 0.01 s): objective=23.7826 imbalance=1.171 nsplit=0         Iteration 6 (0.01 s, search 0.01 s): objective=23.6534 imbalance=1.168 nsplit=0         Iteration 7 (0.01 s, search 0.01 s): objective=23.5567 imbalance=1.166 nsplit=0         Iteration 8 (0.01 s, search 0.01 s): objective=23.5119 imbalance=1.164 nsplit=0         Iteration 9 (0.01 s, search 0.01 s): objective=23.4932 imbalance=1.164 nsplit=0         Iteration 10 (0.01 s, search 0.01 s): objective=23.4825 imbalance=1.163 nsplit=0         Iteration 11 (0.01 s, search 0.01 s): objective=23.4577 imbalance=1.163 nsplit=0         Iteration 12 (0.01 s, search 0.01 s): objective=23.4233 imbalance=1.163 nsplit=0         Iteration 13 (0.01 s, search 0.01 s): objective=23.3862 imbalance=1.163 nsplit=0         Iteration 14 (0.02 s, search 0.01 s): objective=23.3862 imbalance=1.163 nsplit=0         Iteration 15 (0.02 s, search 0.02 s): objective=23.3862 imbalance=1.163 nsplit=0         Iteration 16 (0.02 s, search 0.02 s): objective=23.3862 imbalance=1.163 nsplit=0         Iteration 17 (0.02 s, search 0.02 s): objective=23.3862 imbalance=1.163 nsplit=0         Iteration 18 (0.02 s, search 0.02 s): objective=23.3862 imbalance=1.163 nsplit=0         Iteration 19 (0.02 s, search 0.02 s): objective=23.3862 imbalance=1.163 nsplit=0         Iteration 20 (0.02 s, search 0.02 s): objective=23.3862 imbalance=1.163 nsplit=0         Iteration 21 (0.02 s, search 0.02 s): objective=23.3862 imbalance=1.163 nsplit=0         Iteration 22 (0.02 s, search 0.02 s): objective=23.3862 imbalance=1.163 nsplit=0         Iteration 23 (0.02 s, search 0.02 s): objective=23.3862 imbalance=1.163 nsplit=0         Iteration 24 (0.03 s, search 0.02 s): objective=23.3862 imbalance=1.163 nsplit=0       
+precomputing IVFPQ tables type 1
+ add_core times: 0.001 1.458 0.057 
+[       OK ] IVFPQ.accuracy (433 ms)
+[----------] 1 test from IVFPQ (433 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (433 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.45 sec
+----------------------------------------------------------
+Test Passed.
+"IVFPQ.accuracy" end time: Nov 20 18:18 UTC
+"IVFPQ.accuracy" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/85 Testing: TestLowLevelIVF.IVFFlatL2
+7/85 Test: TestLowLevelIVF.IVFFlatL2
+Command: "/home/ubuntu/HybridVectorIndexBenchmarking/ACORN/build/tests/faiss_test" "--gtest_filter=TestLowLevelIVF.IVFFlatL2" "--gtest_also_run_disabled_tests"
+Directory: /home/ubuntu/HybridVectorIndexBenchmarking/ACORN/build/tests
+"TestLowLevelIVF.IVFFlatL2" start time: Nov 20 18:18 UTC
+Output:
+----------------------------------------------------------
+WARNING clustering 1000 points to 40 centroids: please provide at least 1560 training points
+Running main() from /home/ubuntu/HybridVectorIndexBenchmarking/ACORN/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TestLowLevelIVF.IVFFlatL2
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TestLowLevelIVF
+[ RUN      ] TestLowLevelIVF.IVFFlatL2
+[       OK ] TestLowLevelIVF.IVFFlatL2 (16 ms)
+[----------] 1 test from TestLowLevelIVF (16 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (16 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"TestLowLevelIVF.IVFFlatL2" end time: Nov 20 18:18 UTC
+"TestLowLevelIVF.IVFFlatL2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/85 Testing: TestLowLevelIVF.PCAIVFFlatL2
+8/85 Test: TestLowLevelIVF.PCAIVFFlatL2
+Command: "/home/ubuntu/HybridVectorIndexBenchmarking/ACORN/build/tests/faiss_test" "--gtest_filter=TestLowLevelIVF.PCAIVFFlatL2" "--gtest_also_run_disabled_tests"
+Directory: /home/ubuntu/HybridVectorIndexBenchmarking/ACORN/build/tests
+"TestLowLevelIVF.PCAIVFFlatL2" start time: Nov 20 18:18 UTC
+Output:
+----------------------------------------------------------
+WARNING clustering 1000 points to 40 centroids: please provide at least 1560 training points
+Running main() from /home/ubuntu/HybridVectorIndexBenchmarking/ACORN/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TestLowLevelIVF.PCAIVFFlatL2
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TestLowLevelIVF
+[ RUN      ] TestLowLevelIVF.PCAIVFFlatL2
+[       OK ] TestLowLevelIVF.PCAIVFFlatL2 (58 ms)
+[----------] 1 test from TestLowLevelIVF (58 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (58 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.08 sec
+----------------------------------------------------------
+Test Passed.
+"TestLowLevelIVF.PCAIVFFlatL2" end time: Nov 20 18:18 UTC
+"TestLowLevelIVF.PCAIVFFlatL2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/85 Testing: TestLowLevelIVF.IVFFlatIP
+9/85 Test: TestLowLevelIVF.IVFFlatIP
+Command: "/home/ubuntu/HybridVectorIndexBenchmarking/ACORN/build/tests/faiss_test" "--gtest_filter=TestLowLevelIVF.IVFFlatIP" "--gtest_also_run_disabled_tests"
+Directory: /home/ubuntu/HybridVectorIndexBenchmarking/ACORN/build/tests
+"TestLowLevelIVF.IVFFlatIP" start time: Nov 20 18:18 UTC
+Output:
+----------------------------------------------------------
+WARNING clustering 1000 points to 40 centroids: please provide at least 1560 training points
+Running main() from /home/ubuntu/HybridVectorIndexBenchmarking/ACORN/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TestLowLevelIVF.IVFFlatIP
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TestLowLevelIVF
+[ RUN      ] TestLowLevelIVF.IVFFlatIP
+[       OK ] TestLowLevelIVF.IVFFlatIP (12 ms)
+[----------] 1 test from TestLowLevelIVF (12 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (13 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"TestLowLevelIVF.IVFFlatIP" end time: Nov 20 18:18 UTC
+"TestLowLevelIVF.IVFFlatIP" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/85 Testing: TestLowLevelIVF.IVFSQL2
+10/85 Test: TestLowLevelIVF.IVFSQL2
+Command: "/home/ubuntu/HybridVectorIndexBenchmarking/ACORN/build/tests/faiss_test" "--gtest_filter=TestLowLevelIVF.IVFSQL2" "--gtest_also_run_disabled_tests"
+Directory: /home/ubuntu/HybridVectorIndexBenchmarking/ACORN/build/tests
+"TestLowLevelIVF.IVFSQL2" start time: Nov 20 18:18 UTC
+Output:
+----------------------------------------------------------
+WARNING clustering 1000 points to 40 centroids: please provide at least 1560 training points
+Running main() from /home/ubuntu/HybridVectorIndexBenchmarking/ACORN/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TestLowLevelIVF.IVFSQL2
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TestLowLevelIVF
+[ RUN      ] TestLowLevelIVF.IVFSQL2
+[       OK ] TestLowLevelIVF.IVFSQL2 (19 ms)
+[----------] 1 test from TestLowLevelIVF (19 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (20 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"TestLowLevelIVF.IVFSQL2" end time: Nov 20 18:18 UTC
+"TestLowLevelIVF.IVFSQL2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/85 Testing: TestLowLevelIVF.IVFSQIP
+11/85 Test: TestLowLevelIVF.IVFSQIP
+Command: "/home/ubuntu/HybridVectorIndexBenchmarking/ACORN/build/tests/faiss_test" "--gtest_filter=TestLowLevelIVF.IVFSQIP" "--gtest_also_run_disabled_tests"
+Directory: /home/ubuntu/HybridVectorIndexBenchmarking/ACORN/build/tests
+"TestLowLevelIVF.IVFSQIP" start time: Nov 20 18:18 UTC
+Output:
+----------------------------------------------------------
+WARNING clustering 1000 points to 40 centroids: please provide at least 1560 training points
+Running main() from /home/ubuntu/HybridVectorIndexBenchmarking/ACORN/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TestLowLevelIVF.IVFSQIP
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TestLowLevelIVF
+[ RUN      ] TestLowLevelIVF.IVFSQIP
+[       OK ] TestLowLevelIVF.IVFSQIP (15 ms)
+[----------] 1 test from TestLowLevelIVF (15 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (15 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"TestLowLevelIVF.IVFSQIP" end time: Nov 20 18:18 UTC
+"TestLowLevelIVF.IVFSQIP" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/85 Testing: TestLowLevelIVF.IVFPQL2
+12/85 Test: TestLowLevelIVF.IVFPQL2
+Command: "/home/ubuntu/HybridVectorIndexBenchmarking/ACORN/build/tests/faiss_test" "--gtest_filter=TestLowLevelIVF.IVFPQL2" "--gtest_also_run_disabled_tests"
+Directory: /home/ubuntu/HybridVectorIndexBenchmarking/ACORN/build/tests
+"TestLowLevelIVF.IVFPQL2" start time: Nov 20 18:18 UTC
+Output:
+----------------------------------------------------------
+WARNING clustering 1000 points to 40 centroids: please provide at least 1560 training points
+Running main() from /home/ubuntu/HybridVectorIndexBenchmarking/ACORN/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TestLowLevelIVF.IVFPQL2
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TestLowLevelIVF
+[ RUN      ] TestLowLevelIVF.IVFPQL2
+WARNING clustering 5000 points to 256 centroids: please provide at least 9984 training points
+WARNING clustering 5000 points to 256 centroids: please provide at least 9984 training points
+WARNING clustering 5000 points to 256 centroids: please provide at least 9984 training points
+WARNING clustering 5000 points to 256 centroids: please provide at least 9984 training points
+[       OK ] TestLowLevelIVF.IVFPQL2 (342 ms)
+[----------] 1 test from TestLowLevelIVF (342 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (342 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.39 sec
+----------------------------------------------------------
+Test Passed.
+"TestLowLevelIVF.IVFPQL2" end time: Nov 20 18:18 UTC
+"TestLowLevelIVF.IVFPQL2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+13/85 Testing: TestLowLevelIVF.IVFPQIP
+13/85 Test: TestLowLevelIVF.IVFPQIP
+Command: "/home/ubuntu/HybridVectorIndexBenchmarking/ACORN/build/tests/faiss_test" "--gtest_filter=TestLowLevelIVF.IVFPQIP" "--gtest_also_run_disabled_tests"
+Directory: /home/ubuntu/HybridVectorIndexBenchmarking/ACORN/build/tests
+"TestLowLevelIVF.IVFPQIP" start time: Nov 20 18:18 UTC
+Output:
+----------------------------------------------------------
+WARNING clustering 1000 points to 40 centroids: please provide at least 1560 training points
+Running main() from /home/ubuntu/HybridVectorIndexBenchmarking/ACORN/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TestLowLevelIVF.IVFPQIP
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TestLowLevelIVF
+[ RUN      ] TestLowLevelIVF.IVFPQIP
+WARNING clustering 5000 points to 256 centroids: please provide at least 9984 training points
+WARNING clustering 5000 points to 256 centroids: please provide at least 9984 training points
+WARNING clustering 5000 points to 256 centroids: please provide at least 9984 training points
+WARNING clustering 5000 points to 256 centroids: please provide at least 9984 training points
+[       OK ] TestLowLevelIVF.IVFPQIP (312 ms)
+[----------] 1 test from TestLowLevelIVF (312 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (312 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.37 sec
+----------------------------------------------------------
+Test Passed.
+"TestLowLevelIVF.IVFPQIP" end time: Nov 20 18:18 UTC
+"TestLowLevelIVF.IVFPQIP" time elapsed: 00:00:00
+----------------------------------------------------------
+
+14/85 Testing: TestLowLevelIVF.IVFBinary
+14/85 Test: TestLowLevelIVF.IVFBinary
+Command: "/home/ubuntu/HybridVectorIndexBenchmarking/ACORN/build/tests/faiss_test" "--gtest_filter=TestLowLevelIVF.IVFBinary" "--gtest_also_run_disabled_tests"
+Directory: /home/ubuntu/HybridVectorIndexBenchmarking/ACORN/build/tests
+"TestLowLevelIVF.IVFBinary" start time: Nov 20 18:18 UTC
+Output:
+----------------------------------------------------------
+WARNING clustering 1000 points to 40 centroids: please provide at least 1560 training points
+Running main() from /home/ubuntu/HybridVectorIndexBenchmarking/ACORN/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TestLowLevelIVF.IVFBinary
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TestLowLevelIVF
+[ RUN      ] TestLowLevelIVF.IVFBinary
+new before reroder: [152,113 243,112 364,111 924,107 485,108 733,106 460,102 759,102 370,106 592,105 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new before reroder: [938,117 453,117 826,117 241,114 603,114 327,117 10,117 940,111 883,113 741,112 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [940,111 741,112 883,113 241,114 603,114 10,117 327,117 453,117 826,117 938,117 ]
+new before reroder: [863,116 966,115 72,115 564,115 672,114 217,110 209,103 541,110 951,111 322,114 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [209,103 217,110 541,110 951,111 322,114 672,114 72,115 564,115 966,115 863,116 ]
+new before reroder: [902,115 375,115 729,112 974,113 593,110 749,104 390,98 898,113 362,109 105,109 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [390,98 749,104 105,109 362,109 593,110 729,112 898,113 974,113 375,115 902,115 ]
+new before reroder: [334,117 444,115 128,115 872,114 624,114 980,112 421,112 827,113 428,108 300,114 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [428,108 421,112 980,112 827,113 300,114 624,114 872,114 128,115 444,115 334,117 ]
+new before reroder: [195,114 127,114 747,113 799,113 531,113 673,113 707,113 196,112 264,113 979,109 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [979,109 196,112 264,113 531,113 673,113 707,113 747,113 799,113 127,114 195,114 ]
+new before reroder: [135,118 940,117 58,115 565,116 358,117 674,109 69,114 776,109 792,113 479,115 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [674,109 776,109 792,113 69,114 58,115 479,115 565,116 358,117 940,117 135,118 ]
+new before reroder: [939,118 743,118 216,117 751,115 692,113 568,116 868,114 276,113 538,103 877,110 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [538,103 877,110 276,113 692,113 868,114 751,115 568,116 216,117 743,118 939,118 ]
+new before reroder: [798,113 338,113 728,111 21,112 83,110 169,110 955,108 161,111 886,110 864,105 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [864,105 955,108 83,110 169,110 886,110 161,111 728,111 21,112 338,113 798,113 ]
+new before reroder: [577,112 148,112 180,111 125,112 395,110 863,110 497,107 40,105 100,103 96,110 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [100,103 40,105 497,107 96,110 395,110 863,110 180,111 125,112 148,112 577,112 ]
+new before reroder: [206,115 929,114 991,114 850,114 921,111 14,110 374,112 105,110 476,114 36,109 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [36,109 14,110 105,110 921,111 374,112 476,114 850,114 929,114 991,114 206,115 ]
+new before reroder: [822,115 996,114 602,115 946,114 2,111 447,110 571,104 608,112 134,114 816,108 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [571,104 816,108 447,110 2,111 608,112 134,114 946,114 996,114 602,115 822,115 ]
+new before reroder: [976,115 208,115 905,115 30,114 711,113 345,110 576,112 940,104 750,113 235,111 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [940,104 345,110 235,111 576,112 711,113 750,113 30,114 208,115 905,115 976,115 ]
+new before reroder: [656,115 447,115 460,114 291,115 402,115 35,103 92,111 764,114 676,111 23,109 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [35,103 23,109 92,111 676,111 460,114 764,114 291,115 402,115 447,115 656,115 ]
+new before reroder: [458,116 303,116 325,116 920,115 72,114 746,110 158,104 527,112 327,113 682,110 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [158,104 682,110 746,110 527,112 327,113 72,114 920,115 303,116 325,116 458,116 ]
+new before reroder: [124,118 824,113 91,115 611,111 445,113 484,114 226,114 560,111 812,100 623,112 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [812,100 560,111 611,111 623,112 445,113 824,113 226,114 484,114 91,115 124,118 ]
+new before reroder: [110,117 30,116 244,110 822,115 268,114 40,107 451,109 854,110 360,114 121,107 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [40,107 121,107 451,109 244,110 854,110 268,114 360,114 822,115 30,116 110,117 ]
+new before reroder: [255,115 873,114 223,113 695,112 788,114 581,108 42,113 559,111 697,110 954,108 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [581,108 954,108 697,110 559,111 695,112 42,113 223,113 788,114 873,114 255,115 ]
+new before reroder: [793,114 742,114 751,114 242,114 292,111 375,114 366,111 363,105 761,110 321,106 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [363,105 321,106 761,110 292,111 366,111 242,114 375,114 742,114 751,114 793,114 ]
+new before reroder: [129,113 332,112 415,109 283,112 911,111 320,103 833,108 934,110 855,106 371,99 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [371,99 320,103 855,106 833,108 415,109 934,110 911,111 283,112 332,112 129,113 ]
+new before reroder: [19,116 937,115 3,115 274,114 509,114 311,109 791,112 367,109 957,111 809,111 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [311,109 367,109 809,111 957,111 791,112 274,114 509,114 3,115 937,115 19,116 ]
+new before reroder: [489,117 432,117 79,111 703,116 910,116 986,109 222,110 395,105 548,116 608,111 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [395,105 986,109 222,110 79,111 608,111 548,116 703,116 910,116 432,117 489,117 ]
+new before reroder: [215,114 950,112 39,114 278,112 398,112 61,111 301,108 616,108 713,108 67,111 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [301,108 616,108 713,108 61,111 67,111 278,112 398,112 950,112 39,114 215,114 ]
+new before reroder: [156,117 134,117 866,113 419,116 882,114 16,108 89,111 923,114 842,115 987,109 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [16,108 987,109 89,111 866,113 882,114 923,114 842,115 419,116 134,117 156,117 ]
+new before reroder: [653,117 184,117 466,114 966,116 92,115 65,114 902,112 945,115 109,115 249,111 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [249,111 902,112 65,114 466,114 92,115 109,115 945,115 966,116 184,117 653,117 ]
+new before reroder: [989,113 649,112 15,112 918,111 843,111 954,111 425,110 231,109 727,111 39,105 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [39,105 231,109 425,110 727,111 843,111 918,111 954,111 15,112 649,112 989,113 ]
+new before reroder: [450,115 253,115 476,111 10,114 44,115 233,105 261,108 752,112 817,112 395,110 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [233,105 261,108 395,110 476,111 752,112 817,112 10,114 44,115 253,115 450,115 ]
+new before reroder: [904,116 593,115 781,116 983,113 315,115 207,110 670,115 608,113 801,112 328,110 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [207,110 328,110 801,112 608,113 983,113 315,115 593,115 670,115 781,116 904,116 ]
+new before reroder: [907,113 886,113 910,112 658,108 897,112 860,111 689,111 77,107 714,106 487,109 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [714,106 77,107 658,108 487,109 689,111 860,111 897,112 910,112 886,113 907,113 ]
+new before reroder: [645,115 835,114 45,111 280,113 792,114 868,110 136,103 573,110 92,110 493,114 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [136,103 92,110 573,110 868,110 45,111 280,113 493,114 792,114 835,114 645,115 ]
+new before reroder: [107,116 969,114 413,115 539,114 158,114 676,107 293,103 590,111 145,111 427,111 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [293,103 676,107 145,111 427,111 590,111 158,114 539,114 969,114 413,115 107,116 ]
+new before reroder: [960,114 587,114 772,114 495,112 528,113 191,110 991,110 245,112 806,110 346,113 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [191,110 806,110 991,110 245,112 495,112 346,113 528,113 587,114 772,114 960,114 ]
+new before reroder: [68,115 887,114 757,113 448,114 950,113 210,113 51,109 382,113 216,108 233,110 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [216,108 51,109 233,110 210,113 382,113 757,113 950,113 448,114 887,114 68,115 ]
+new before reroder: [660,118 644,117 204,118 198,116 827,110 808,104 630,116 998,115 766,111 521,107 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [808,104 521,107 827,110 766,111 998,115 198,116 630,116 644,117 204,118 660,118 ]
+new before reroder: [378,115 571,114 430,113 478,114 252,113 94,106 872,111 831,110 613,113 329,111 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [94,106 831,110 329,111 872,111 252,113 430,113 613,113 478,114 571,114 378,115 ]
+new before reroder: [587,115 238,115 254,114 91,115 566,114 112,105 364,108 736,110 581,112 459,103 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [459,103 112,105 364,108 736,110 581,112 254,114 566,114 91,115 238,115 587,115 ]
+new before reroder: [312,116 195,115 331,115 998,111 916,113 276,109 216,115 921,108 114,98 716,112 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [114,98 921,108 276,109 998,111 716,112 916,113 195,115 216,115 331,115 312,116 ]
+new before reroder: [595,113 508,112 902,112 773,111 625,106 466,106 929,110 266,107 723,111 470,101 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [470,101 466,106 625,106 266,107 929,110 723,111 773,111 508,112 902,112 595,113 ]
+new before reroder: [588,115 579,115 422,110 836,113 117,115 405,107 420,110 203,112 78,111 894,114 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [405,107 420,110 422,110 78,111 203,112 836,113 894,114 117,115 579,115 588,115 ]
+new before reroder: [848,116 219,115 400,116 725,114 810,114 699,108 531,109 503,114 573,109 802,114 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [699,108 531,109 573,109 503,114 725,114 802,114 810,114 219,115 400,116 848,116 ]
+new before reroder: [228,116 375,113 988,113 719,110 705,112 730,111 544,113 860,106 571,104 690,112 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [571,104 860,106 719,110 730,111 690,112 705,112 375,113 544,113 988,113 228,116 ]
+new before reroder: [99,115 493,114 327,112 573,110 554,109 140,112 479,108 2,109 770,106 536,106 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [536,106 770,106 479,108 2,109 554,109 573,110 140,112 327,112 493,114 99,115 ]
+new before reroder: [245,115 191,115 333,114 829,114 936,113 204,114 206,114 850,111 551,112 582,105 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [582,105 850,111 551,112 936,113 204,114 206,114 333,114 829,114 191,115 245,115 ]
+new before reroder: [100,117 884,115 636,116 146,113 406,115 90,110 482,116 178,112 654,103 265,115 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [654,103 90,110 178,112 146,113 265,115 406,115 884,115 482,116 636,116 100,117 ]
+new before reroder: [848,113 72,113 194,112 744,112 210,112 741,111 830,109 338,109 966,111 939,110 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [338,109 830,109 939,110 741,111 966,111 194,112 210,112 744,112 72,113 848,113 ]
+new before reroder: [176,116 886,115 432,115 388,114 637,114 973,110 70,113 154,113 839,105 183,112 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [839,105 973,110 183,112 70,113 154,113 388,114 637,114 432,115 886,115 176,116 ]
+new before reroder: [506,115 49,115 440,115 495,114 99,112 655,104 359,114 136,108 146,112 645,102 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [645,102 655,104 136,108 99,112 146,112 359,114 495,114 49,115 440,115 506,115 ]
+new before reroder: [342,115 7,114 817,112 425,113 619,112 233,111 162,110 274,109 362,113 700,108 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [700,108 274,109 162,110 233,111 619,112 817,112 362,113 425,113 7,114 342,115 ]
+new before reroder: [499,115 919,114 456,113 79,114 299,114 583,106 222,105 986,108 975,111 641,113 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [222,105 583,106 986,108 975,111 456,113 641,113 79,114 299,114 919,114 499,115 ]
+new before reroder: [665,114 445,113 759,113 139,113 590,112 981,109 785,109 964,112 588,112 413,110 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [785,109 981,109 413,110 588,112 590,112 964,112 139,113 445,113 759,113 665,114 ]
+new before reroder: [556,115 875,114 200,115 706,113 422,114 761,114 389,111 853,111 869,110 988,110 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [869,110 988,110 389,111 853,111 706,113 422,114 761,114 875,114 200,115 556,115 ]
+new before reroder: [357,116 387,114 813,115 321,114 602,110 363,103 222,106 352,110 395,107 375,108 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [363,103 222,106 395,107 375,108 352,110 602,110 321,114 387,114 813,115 357,116 ]
+new before reroder: [856,114 741,114 603,114 188,114 784,111 616,113 349,113 747,111 205,112 901,107 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [901,107 747,111 784,111 205,112 349,113 616,113 188,114 603,114 741,114 856,114 ]
+new before reroder: [803,115 511,115 51,114 740,113 840,113 293,110 859,111 877,112 928,108 716,106 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [716,106 928,108 293,110 859,111 877,112 740,113 840,113 51,114 511,115 803,115 ]
+new before reroder: [949,116 370,116 857,116 995,114 704,115 953,115 914,110 108,110 650,107 985,102 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [985,102 650,107 108,110 914,110 995,114 704,115 953,115 370,116 857,116 949,116 ]
+new before reroder: [644,114 937,113 668,112 789,111 613,110 101,110 759,110 935,110 669,106 534,108 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [669,106 534,108 101,110 613,110 759,110 935,110 789,111 668,112 937,113 644,114 ]
+new before reroder: [657,115 457,115 436,114 404,115 178,112 372,111 90,106 652,112 326,113 722,104 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [722,104 90,106 372,111 178,112 652,112 326,113 436,114 404,115 457,115 657,115 ]
+new before reroder: [40,114 982,113 233,108 677,113 452,113 69,106 22,106 639,108 722,105 565,112 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [722,105 22,106 69,106 233,108 639,108 565,112 452,113 677,113 982,113 40,114 ]
+new before reroder: [637,116 544,114 957,115 492,112 623,109 874,115 63,113 378,112 157,109 448,104 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [448,104 157,109 623,109 378,112 492,112 63,113 544,114 874,115 957,115 637,116 ]
+new before reroder: [731,114 433,114 300,114 162,113 289,114 985,110 993,112 518,111 388,112 534,112 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [985,110 518,111 388,112 534,112 993,112 162,113 289,114 300,114 433,114 731,114 ]
+new before reroder: [828,114 582,114 766,114 220,114 37,113 700,111 294,111 140,103 155,107 479,107 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [140,103 155,107 479,107 294,111 700,111 37,113 220,114 582,114 766,114 828,114 ]
+new before reroder: [11,119 665,117 828,118 734,116 909,116 405,117 99,118 975,114 775,113 653,109 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [653,109 775,113 975,114 734,116 909,116 405,117 665,117 99,118 828,118 11,119 ]
+new before reroder: [130,118 691,117 706,117 525,117 983,113 52,114 263,116 140,117 280,116 913,109 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [913,109 983,113 52,114 263,116 280,116 140,117 525,117 691,117 706,117 130,118 ]
+new before reroder: [716,114 96,112 123,111 82,112 437,110 788,106 815,100 982,110 586,111 801,107 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [815,100 788,106 801,107 437,110 982,110 123,111 586,111 82,112 96,112 716,114 ]
+new before reroder: [186,115 959,114 594,112 109,114 912,114 776,110 135,107 712,110 925,110 914,109 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [135,107 914,109 712,110 776,110 925,110 594,112 109,114 912,114 959,114 186,115 ]
+new before reroder: [141,116 799,115 852,114 521,114 756,112 212,102 537,111 103,114 257,114 983,111 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [212,102 537,111 983,111 756,112 103,114 257,114 521,114 852,114 799,115 141,116 ]
+new before reroder: [95,114 960,113 797,113 178,112 760,112 404,111 870,102 690,110 787,110 933,109 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [870,102 933,109 690,110 787,110 404,111 178,112 760,112 797,113 960,113 95,114 ]
+new before reroder: [496,114 252,114 238,114 487,113 809,113 671,111 182,113 935,104 938,111 409,112 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [935,104 671,111 938,111 409,112 182,113 487,113 809,113 238,114 252,114 496,114 ]
+new before reroder: [538,114 516,114 108,114 707,113 317,113 160,106 127,110 570,107 73,110 829,101 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [829,101 160,106 570,107 73,110 127,110 317,113 707,113 108,114 516,114 538,114 ]
+new before reroder: [237,115 127,114 80,115 713,111 278,113 399,112 296,113 650,109 755,107 144,107 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [144,107 755,107 650,109 713,111 399,112 278,113 296,113 127,114 80,115 237,115 ]
+new before reroder: [192,116 542,115 855,115 330,115 82,114 706,114 988,111 732,114 517,108 88,109 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [517,108 88,109 988,111 82,114 706,114 732,114 330,115 542,115 855,115 192,116 ]
+new before reroder: [238,115 621,114 11,114 459,113 574,112 742,111 74,109 194,106 380,104 93,112 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [380,104 194,106 74,109 742,111 93,112 574,112 459,113 11,114 621,114 238,115 ]
+new before reroder: [639,119 717,118 294,116 70,118 386,114 201,110 176,111 863,116 346,114 207,113 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [201,110 176,111 207,113 346,114 386,114 294,116 863,116 70,118 717,118 639,119 ]
+new before reroder: [272,116 134,116 252,115 143,115 988,113 734,111 584,113 263,111 181,110 553,103 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [553,103 181,110 263,111 734,111 584,113 988,113 143,115 252,115 134,116 272,116 ]
+new before reroder: [148,114 786,113 949,113 967,112 488,110 947,109 801,113 921,102 204,108 9,106 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [921,102 9,106 204,108 947,109 488,110 967,112 786,113 801,113 949,113 148,114 ]
+new before reroder: [730,116 98,116 559,116 226,113 428,112 606,115 555,113 449,111 155,111 29,111 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [29,111 155,111 449,111 428,112 226,113 555,113 606,115 98,116 559,116 730,116 ]
+new before reroder: [580,115 429,115 924,110 385,115 757,114 204,110 14,103 510,114 513,114 395,114 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [14,103 204,110 924,110 395,114 510,114 513,114 757,114 385,115 429,115 580,115 ]
+new before reroder: [373,115 820,113 331,115 658,113 646,113 456,107 865,114 527,113 161,97 27,107 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [161,97 27,107 456,107 527,113 646,113 658,113 820,113 865,114 331,115 373,115 ]
+new before reroder: [4,115 966,114 7,113 215,113 714,112 912,111 46,112 109,111 831,111 264,111 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [109,111 264,111 831,111 912,111 46,112 714,112 7,113 215,113 966,114 4,115 ]
+new before reroder: [624,115 422,115 552,115 416,115 129,110 463,109 337,113 736,112 499,113 709,107 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [709,107 463,109 129,110 736,112 337,113 499,113 416,115 422,115 552,115 624,115 ]
+new before reroder: [872,116 524,116 887,112 830,114 251,116 16,110 419,106 434,109 424,110 272,111 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [419,106 434,109 16,110 424,110 272,111 887,112 830,114 251,116 524,116 872,116 ]
+new before reroder: [402,117 910,116 367,115 90,115 781,116 60,113 70,115 798,114 766,114 349,113 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [60,113 349,113 766,114 798,114 70,115 90,115 367,115 781,116 910,116 402,117 ]
+new before reroder: [593,117 157,117 495,116 772,114 73,116 812,109 451,110 560,114 817,107 139,110 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [817,107 812,109 139,110 451,110 560,114 772,114 73,116 495,116 157,117 593,117 ]
+new before reroder: [988,114 343,114 732,113 937,107 232,110 637,112 592,109 916,104 487,105 759,100 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [759,100 916,104 487,105 937,107 592,109 232,110 637,112 732,113 343,114 988,114 ]
+new before reroder: [737,115 631,115 469,115 282,115 712,113 332,114 526,111 463,110 283,110 596,112 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [283,110 463,110 526,111 596,112 712,113 332,114 282,115 469,115 631,115 737,115 ]
+new before reroder: [243,116 793,114 309,115 358,113 270,113 680,109 985,106 209,112 534,110 228,111 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [985,106 680,109 534,110 228,111 209,112 270,113 358,113 793,114 309,115 243,116 ]
+new before reroder: [403,115 887,114 145,115 607,112 701,113 618,113 764,110 589,110 338,106 675,108 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [338,106 675,108 589,110 764,110 607,112 618,113 701,113 887,114 145,115 403,115 ]
+new before reroder: [495,116 196,116 73,114 983,115 76,114 284,109 318,106 57,115 173,114 235,110 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [318,106 284,109 235,110 73,114 76,114 173,114 57,115 983,115 196,116 495,116 ]
+new before reroder: [919,117 606,117 162,117 853,111 548,116 462,113 814,112 792,107 568,103 117,115 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [568,103 792,107 853,111 814,112 462,113 117,115 548,116 162,117 606,117 919,117 ]
+new before reroder: [563,116 769,115 14,116 126,114 142,114 395,115 688,115 687,112 767,113 348,112 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [348,112 687,112 767,113 126,114 142,114 395,115 688,115 769,115 14,116 563,116 ]
+new before reroder: [320,115 638,113 670,111 147,107 937,111 485,104 370,104 192,105 243,104 935,110 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [243,104 370,104 485,104 192,105 147,107 935,110 670,111 937,111 638,113 320,115 ]
+new before reroder: [14,114 199,113 187,113 171,113 340,110 580,110 247,110 310,109 421,106 687,94 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [687,94 421,106 310,109 247,110 340,110 580,110 171,113 187,113 199,113 14,114 ]
+new before reroder: [777,117 752,117 681,114 454,114 512,116 877,113 471,112 215,113 953,113 32,114 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [471,112 215,113 877,113 953,113 32,114 454,114 681,114 512,116 752,117 777,117 ]
+new before reroder: [710,112 974,111 582,107 264,110 398,104 800,104 521,101 102,103 127,109 766,103 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [521,101 102,103 766,103 398,104 800,104 582,107 127,109 264,110 974,111 710,112 ]
+new before reroder: [198,116 850,115 145,116 236,115 805,111 17,114 971,110 337,111 827,108 921,106 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [921,106 827,108 971,110 337,111 805,111 17,114 236,115 850,115 145,116 198,116 ]
+new before reroder: [315,115 125,115 374,110 111,115 739,110 517,107 277,107 408,111 212,110 253,108 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [277,107 517,107 253,108 212,110 374,110 739,110 408,111 111,115 125,115 315,115 ]
+new before reroder: [693,114 531,114 2,113 558,113 973,111 16,105 756,107 983,112 289,113 770,106 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [16,105 770,106 756,107 973,111 983,112 2,113 289,113 558,113 531,114 693,114 ]
+new before reroder: [8,117 274,116 723,115 566,115 964,113 68,115 51,113 886,111 865,111 784,111 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [784,111 865,111 886,111 51,113 964,113 68,115 566,115 723,115 274,116 8,117 ]
+new before reroder: [61,115 895,113 843,114 391,113 132,113 767,114 615,113 149,108 633,110 400,111 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [149,108 633,110 400,111 132,113 391,113 615,113 895,113 767,114 843,114 61,115 ]
+new before reroder: [396,116 915,114 905,115 603,113 119,112 9,112 72,115 88,113 461,107 482,102 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [482,102 461,107 9,112 119,112 88,113 603,113 915,114 72,115 905,115 396,116 ]
+new before reroder: [274,115 24,115 166,115 799,114 981,113 845,109 633,112 396,114 157,110 823,110 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [845,109 157,110 823,110 633,112 981,113 396,114 799,114 24,115 166,115 274,115 ]
+new before reroder: [587,114 600,112 927,113 344,111 209,112 112,112 678,106 981,108 539,106 925,111 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [539,106 678,106 981,108 344,111 925,111 112,112 209,112 600,112 927,113 587,114 ]
+new before reroder: [911,116 90,116 406,111 527,113 709,115 332,111 704,108 715,110 379,106 109,114 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [379,106 704,108 715,110 332,111 406,111 527,113 109,114 709,115 90,116 911,116 ]
+new before reroder: [904,116 644,116 183,116 825,114 572,116 102,116 759,112 243,112 174,111 619,113 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [174,111 243,112 759,112 619,113 825,114 102,116 183,116 572,116 644,116 904,116 ]
+new before reroder: [225,115 657,114 65,114 775,113 296,113 457,110 664,111 165,110 413,113 104,110 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [104,110 165,110 457,110 664,111 296,113 413,113 775,113 65,114 657,114 225,115 ]
+new before reroder: [525,114 741,113 513,108 890,111 394,111 80,108 136,107 419,111 731,107 576,108 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [136,107 731,107 80,108 513,108 576,108 394,111 419,111 890,111 741,113 525,114 ]
+new before reroder: [982,116 571,116 997,114 973,115 825,115 759,113 957,114 945,106 74,115 19,115 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [945,106 759,113 957,114 997,114 19,115 74,115 825,115 973,115 571,116 982,116 ]
+new before reroder: [255,116 224,115 89,113 240,114 135,112 685,112 263,108 564,112 854,101 881,104 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [854,101 881,104 263,108 135,112 564,112 685,112 89,113 240,114 224,115 255,116 ]
+new before reroder: [385,117 252,117 272,116 262,114 127,117 540,113 342,115 399,111 414,112 842,112 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [399,111 414,112 842,112 540,113 262,114 342,115 272,116 127,117 252,117 385,117 ]
+new before reroder: [338,116 119,115 180,114 876,114 793,114 331,112 835,107 149,107 716,111 449,113 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [149,107 835,107 716,111 331,112 449,113 180,114 793,114 876,114 119,115 338,116 ]
+new before reroder: [93,116 825,115 236,115 662,114 579,112 809,104 853,114 224,112 287,114 243,111 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [809,104 243,111 224,112 579,112 287,114 662,114 853,114 236,115 825,115 93,116 ]
+new before reroder: [423,117 304,116 649,114 961,110 872,114 795,110 41,107 399,102 812,107 441,111 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [399,102 41,107 812,107 795,110 961,110 441,111 649,114 872,114 304,116 423,117 ]
+new before reroder: [854,115 383,115 787,115 244,113 870,113 170,111 204,111 312,101 689,97 968,108 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [689,97 312,101 968,108 170,111 204,111 244,113 870,113 383,115 787,115 854,115 ]
+new before reroder: [731,117 297,117 72,117 655,115 252,117 16,109 792,108 459,111 892,109 573,102 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [573,102 792,108 16,109 892,109 459,111 655,115 72,117 252,117 297,117 731,117 ]
+new before reroder: [360,117 664,115 854,115 968,114 286,115 468,112 938,107 269,111 838,110 518,111 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [938,107 838,110 269,111 518,111 468,112 968,114 286,115 664,115 854,115 360,117 ]
+new before reroder: [599,116 907,115 13,115 654,114 440,115 338,108 36,113 89,113 801,112 218,111 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [338,108 218,111 801,112 36,113 89,113 654,114 13,115 440,115 907,115 599,116 ]
+new before reroder: [33,116 260,115 468,113 517,114 345,114 938,110 298,111 148,112 306,114 198,114 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [938,110 298,111 148,112 468,113 198,114 306,114 345,114 517,114 260,115 33,116 ]
+new before reroder: [816,115 775,115 367,115 521,114 270,113 734,112 289,110 809,113 842,111 613,112 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [289,110 842,111 613,112 734,112 270,113 809,113 521,114 367,115 775,115 816,115 ]
+new before reroder: [314,113 376,112 469,112 960,109 352,111 375,107 454,107 344,104 692,109 435,108 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [344,104 375,107 454,107 435,108 692,109 960,109 352,111 376,112 469,112 314,113 ]
+new before reroder: [806,113 740,113 637,111 711,113 858,112 279,110 565,111 809,112 539,113 932,106 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [932,106 279,110 565,111 637,111 809,112 858,112 539,113 711,113 740,113 806,113 ]
+new before reroder: [551,113 960,112 725,112 222,112 901,111 29,111 356,109 469,107 227,108 778,106 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [778,106 469,107 227,108 356,109 29,111 901,111 222,112 725,112 960,112 551,113 ]
+new before reroder: [133,116 980,115 5,114 235,115 128,114 6,110 332,113 947,109 626,112 287,110 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [947,109 6,110 287,110 626,112 332,113 5,114 128,114 235,115 980,115 133,116 ]
+new before reroder: [278,117 587,116 233,116 927,115 167,105 677,113 570,115 483,114 868,115 124,103 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [124,103 167,105 677,113 483,114 570,115 868,115 927,115 233,116 587,116 278,117 ]
+new before reroder: [921,113 309,113 144,111 137,113 850,112 80,111 41,111 104,104 949,110 738,109 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [104,104 738,109 949,110 41,111 80,111 144,111 850,112 137,113 309,113 921,113 ]
+new before reroder: [32,116 964,115 813,115 953,115 797,110 512,112 40,112 646,112 841,108 665,109 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [841,108 665,109 797,110 40,112 512,112 646,112 813,115 953,115 964,115 32,116 ]
+new before reroder: [998,114 595,113 887,114 292,113 406,112 457,112 606,109 309,111 454,102 647,104 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [454,102 647,104 606,109 309,111 406,112 457,112 292,113 595,113 887,114 998,114 ]
+new before reroder: [453,116 426,115 822,115 608,114 934,113 386,110 906,109 888,112 320,112 489,102 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [489,102 906,109 386,110 320,112 888,112 934,113 608,114 426,115 822,115 453,116 ]
+new before reroder: [418,113 415,113 62,113 24,112 958,108 557,105 478,111 303,106 500,111 327,103 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [327,103 557,105 303,106 958,108 478,111 500,111 24,112 62,113 415,113 418,113 ]
+new before reroder: [861,114 275,113 38,112 207,113 179,112 320,110 500,106 610,109 43,111 62,112 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [500,106 610,109 320,110 43,111 38,112 62,112 179,112 207,113 275,113 861,114 ]
+new before reroder: [585,116 84,116 249,114 92,114 115,114 692,113 890,109 423,108 420,111 729,112 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [423,108 890,109 420,111 729,112 692,113 92,114 115,114 249,114 84,116 585,116 ]
+new before reroder: [218,117 155,117 614,114 164,114 137,115 791,112 52,114 548,110 291,101 144,105 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [291,101 144,105 548,110 791,112 52,114 164,114 614,114 137,115 155,117 218,117 ]
+new before reroder: [61,115 75,114 46,115 662,110 67,113 941,112 347,113 6,110 915,108 50,109 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [915,108 50,109 6,110 662,110 941,112 67,113 347,113 75,114 46,115 61,115 ]
+new before reroder: [611,116 622,114 240,114 335,114 253,114 777,111 209,112 44,108 460,112 974,108 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [44,108 974,108 777,111 209,112 460,112 240,114 253,114 335,114 622,114 611,116 ]
+new before reroder: [191,117 500,116 43,117 51,114 294,114 617,114 643,109 813,112 196,113 960,111 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [643,109 960,111 813,112 196,113 51,114 294,114 617,114 500,116 43,117 191,117 ]
+new before reroder: [356,115 560,114 738,113 442,113 103,114 875,112 944,109 231,113 127,110 381,113 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [944,109 127,110 875,112 231,113 381,113 442,113 738,113 103,114 560,114 356,115 ]
+new before reroder: [843,116 933,115 899,114 763,115 492,115 100,111 722,110 231,114 381,112 368,112 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [722,110 100,111 368,112 381,112 231,114 899,114 492,115 763,115 933,115 843,116 ]
+new before reroder: [545,113 264,113 635,112 167,113 452,109 863,111 696,110 368,103 834,112 293,109 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [368,103 293,109 452,109 696,110 863,111 635,112 834,112 167,113 264,113 545,113 ]
+new before reroder: [329,114 956,113 477,113 876,112 701,113 425,112 571,103 756,110 816,111 39,113 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [571,103 756,110 816,111 425,112 876,112 39,113 477,113 701,113 956,113 329,114 ]
+new before reroder: [64,115 189,114 550,112 322,113 15,114 564,110 353,112 280,110 240,110 451,106 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [451,106 240,110 280,110 564,110 353,112 550,112 322,113 15,114 189,114 64,115 ]
+new before reroder: [571,113 380,113 361,111 302,113 810,110 756,106 234,109 175,106 689,111 116,106 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [116,106 175,106 756,106 234,109 810,110 361,111 689,111 302,113 380,113 571,113 ]
+new before reroder: [125,118 952,116 6,118 990,114 692,113 130,115 471,109 553,109 732,110 324,104 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [324,104 471,109 553,109 732,110 692,113 990,114 130,115 952,116 6,118 125,118 ]
+new before reroder: [880,114 419,114 0,113 75,113 693,113 44,108 412,112 731,112 106,111 291,113 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [44,108 106,111 412,112 731,112 0,113 75,113 291,113 693,113 419,114 880,114 ]
+new before reroder: [439,117 964,116 166,115 886,114 919,116 462,108 11,114 993,113 275,113 784,110 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [462,108 784,110 275,113 993,113 11,114 886,114 166,115 919,116 964,116 439,117 ]
+new before reroder: [823,115 548,114 103,110 984,112 288,114 531,109 679,109 88,110 389,111 24,112 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [531,109 679,109 88,110 103,110 389,111 24,112 984,112 288,114 548,114 823,115 ]
+new before reroder: [636,113 452,113 261,111 194,113 596,112 395,109 14,110 942,102 171,111 677,109 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [942,102 395,109 677,109 14,110 171,111 261,111 596,112 194,113 452,113 636,113 ]
+new before reroder: [978,113 153,113 700,112 784,112 27,113 864,111 135,105 383,112 367,104 870,106 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [367,104 135,105 870,106 864,111 383,112 700,112 784,112 27,113 153,113 978,113 ]
+new before reroder: [888,116 443,115 335,115 923,113 81,112 874,112 102,113 794,111 843,106 587,109 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [843,106 587,109 794,111 81,112 874,112 102,113 923,113 335,115 443,115 888,116 ]
+new before reroder: [884,117 734,117 863,112 231,116 817,114 381,110 869,111 888,114 393,109 253,107 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [253,107 393,109 381,110 869,111 863,112 817,114 888,114 231,116 734,117 884,117 ]
+new before reroder: [111,115 451,112 58,115 308,111 822,110 610,110 893,113 360,109 190,105 963,104 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [963,104 190,105 360,109 610,110 822,110 308,111 451,112 893,113 58,115 111,115 ]
+new before reroder: [139,116 24,116 346,115 621,115 696,114 317,111 8,115 37,113 865,105 665,101 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [665,101 865,105 317,111 37,113 696,114 8,115 346,115 621,115 24,116 139,116 ]
+new before reroder: [467,117 234,117 336,117 710,115 634,115 185,111 673,113 398,113 532,110 576,113 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [532,110 185,111 398,113 576,113 673,113 634,115 710,115 234,117 336,117 467,117 ]
+new before reroder: [389,117 709,116 679,115 289,116 571,115 592,105 569,113 214,113 232,116 57,113 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [592,105 57,113 214,113 569,113 571,115 679,115 232,116 289,116 709,116 389,117 ]
+new before reroder: [821,111 637,111 321,111 214,110 954,110 83,104 526,110 469,106 154,110 560,109 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [83,104 469,106 560,109 154,110 214,110 526,110 954,110 321,111 637,111 821,111 ]
+new before reroder: [444,115 708,114 559,114 671,113 544,114 300,114 55,112 464,111 254,113 634,113 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [464,111 55,112 254,113 634,113 671,113 300,114 544,114 559,114 708,114 444,115 ]
+new before reroder: [924,112 815,112 384,110 48,112 173,111 43,107 264,110 284,108 369,98 817,108 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [369,98 43,107 284,108 817,108 264,110 384,110 173,111 48,112 815,112 924,112 ]
+new before reroder: [432,116 381,114 274,115 867,113 522,113 51,114 38,100 869,109 460,113 610,107 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [38,100 610,107 869,109 460,113 522,113 867,113 51,114 381,114 274,115 432,116 ]
+new before reroder: [248,115 222,114 838,112 387,112 197,113 798,112 317,103 349,107 186,112 79,111 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [317,103 349,107 79,111 186,112 387,112 798,112 838,112 197,113 222,114 248,115 ]
+new before reroder: [816,113 670,113 174,113 726,112 283,112 14,112 655,112 220,108 429,108 52,112 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [220,108 429,108 14,112 52,112 283,112 655,112 726,112 174,113 670,113 816,113 ]
+new before reroder: [452,114 154,114 78,114 993,113 792,112 971,104 691,112 857,109 48,112 25,112 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [971,104 857,109 25,112 48,112 691,112 792,112 993,113 78,114 154,114 452,114 ]
+new before reroder: [232,112 938,111 891,111 170,109 358,111 153,110 485,110 110,108 229,106 288,110 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [229,106 110,108 170,109 153,110 288,110 485,110 358,111 891,111 938,111 232,112 ]
+new before reroder: [557,114 357,113 73,113 167,112 122,113 597,106 478,110 139,111 151,108 161,109 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [597,106 151,108 161,109 478,110 139,111 167,112 73,113 122,113 357,113 557,114 ]
+new before reroder: [450,116 863,115 123,116 323,113 371,115 974,112 593,111 899,107 722,111 201,115 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [899,107 593,111 722,111 974,112 323,113 201,115 371,115 863,115 123,116 450,116 ]
+new before reroder: [664,116 806,115 856,115 658,115 539,115 458,115 221,113 843,106 840,113 809,114 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [843,106 221,113 840,113 809,114 458,115 539,115 658,115 806,115 856,115 664,116 ]
+new before reroder: [360,115 268,115 781,112 506,113 587,114 695,101 539,108 153,112 432,113 110,112 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [695,101 539,108 110,112 153,112 781,112 432,113 506,113 587,114 268,115 360,115 ]
+new before reroder: [495,116 73,116 15,114 424,114 224,115 876,112 271,112 89,113 412,112 888,113 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [271,112 412,112 876,112 89,113 888,113 15,114 424,114 224,115 73,116 495,116 ]
+new before reroder: [264,115 856,114 21,115 630,113 467,107 205,110 296,113 307,112 816,103 570,105 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [816,103 570,105 467,107 205,110 307,112 296,113 630,113 856,114 21,115 264,115 ]
+new before reroder: [454,117 285,117 446,115 676,112 119,112 204,110 477,112 786,109 849,111 684,107 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [684,107 786,109 204,110 849,111 119,112 477,112 676,112 446,115 285,117 454,117 ]
+new before reroder: [154,113 501,112 859,112 888,111 191,110 433,112 759,112 453,111 632,109 797,108 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [797,108 632,109 191,110 453,111 888,111 433,112 501,112 759,112 859,112 154,113 ]
+new before reroder: [571,114 155,114 137,112 396,112 640,112 763,111 708,111 793,107 691,106 0,110 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [691,106 793,107 0,110 708,111 763,111 137,112 396,112 640,112 155,114 571,114 ]
+new before reroder: [845,115 761,115 816,114 172,113 836,114 11,114 919,112 545,112 993,105 708,113 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [993,105 545,112 919,112 172,113 708,113 11,114 816,114 836,114 761,115 845,115 ]
+new before reroder: [327,116 246,116 25,116 173,115 535,115 870,114 893,114 592,114 789,114 618,114 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [592,114 618,114 789,114 870,114 893,114 173,115 535,115 25,116 246,116 327,116 ]
+new before reroder: [296,115 867,114 741,114 71,114 873,109 625,112 525,113 907,113 583,111 280,106 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [280,106 873,109 583,111 625,112 525,113 907,113 71,114 741,114 867,114 296,115 ]
+new before reroder: [717,117 374,116 382,117 210,115 447,115 490,115 587,112 315,113 285,112 7,115 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [285,112 587,112 315,113 7,115 210,115 447,115 490,115 374,116 382,117 717,117 ]
+new before reroder: [520,116 377,116 547,111 881,112 619,115 745,106 210,111 776,111 69,110 434,113 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [745,106 69,110 210,111 547,111 776,111 881,112 434,113 619,115 377,116 520,116 ]
+new before reroder: [774,113 688,113 48,113 781,112 109,113 831,111 973,106 254,111 78,109 232,110 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [973,106 78,109 232,110 254,111 831,111 781,112 48,113 109,113 688,113 774,113 ]
+new before reroder: [497,115 108,113 660,114 206,112 22,111 773,112 790,113 508,111 700,104 382,110 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [700,104 382,110 22,111 508,111 206,112 773,112 108,113 790,113 660,114 497,115 ]
+new before reroder: [92,114 669,113 745,113 105,113 625,113 295,112 656,112 235,109 109,102 254,112 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [109,102 235,109 254,112 295,112 656,112 105,113 625,113 669,113 745,113 92,114 ]
+new before reroder: [675,117 613,117 30,116 971,114 745,113 923,113 25,104 694,107 240,109 29,112 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [25,104 694,107 240,109 29,112 745,113 923,113 971,114 30,116 613,117 675,117 ]
+new before reroder: [633,115 413,115 56,115 231,115 978,112 862,112 42,114 812,113 327,113 331,108 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [331,108 862,112 978,112 327,113 812,113 42,114 56,115 231,115 413,115 633,115 ]
+new before reroder: [312,114 206,114 11,110 107,113 574,110 113,109 382,108 850,105 744,104 119,110 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [744,104 850,105 382,108 113,109 11,110 119,110 574,110 107,113 206,114 312,114 ]
+new before reroder: [566,115 482,115 256,112 11,115 835,111 828,108 99,110 265,108 498,111 790,110 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [265,108 828,108 99,110 790,110 498,111 835,111 256,112 11,115 482,115 566,115 ]
+new before reroder: [583,115 309,115 108,114 838,114 776,113 693,113 187,113 394,110 822,112 628,112 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [394,110 628,112 822,112 187,113 693,113 776,113 108,114 838,114 309,115 583,115 ]
+new before reroder: [461,115 373,115 318,113 885,112 776,114 40,109 187,112 529,109 76,111 952,112 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [40,109 529,109 76,111 187,112 885,112 952,112 318,113 776,114 373,115 461,115 ]
+new before reroder: [809,117 691,117 289,116 94,115 785,116 928,111 19,112 359,110 56,115 615,106 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [615,106 359,110 928,111 19,112 56,115 94,115 289,116 785,116 691,117 809,117 ]
+new before reroder: [17,114 276,113 572,113 891,112 36,112 499,113 170,112 58,112 822,111 666,109 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [666,109 822,111 36,112 58,112 170,112 891,112 276,113 499,113 572,113 17,114 ]
+new before reroder: [712,114 301,112 237,114 417,110 610,109 881,109 891,112 785,107 386,108 360,98 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [360,98 785,107 386,108 610,109 881,109 417,110 301,112 891,112 237,114 712,114 ]
+new before reroder: [490,115 382,115 49,115 285,112 995,110 691,113 971,109 919,105 361,107 861,109 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [919,105 361,107 861,109 971,109 995,110 285,112 691,113 49,115 382,115 490,115 ]
+new before reroder: [154,115 721,114 16,114 183,114 159,113 394,112 731,110 694,110 279,113 59,109 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [59,109 694,110 731,110 394,112 159,113 279,113 16,114 183,114 721,114 154,115 ]
+new before reroder: [762,114 546,114 381,114 875,113 466,113 372,113 138,112 561,106 497,113 7,104 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [7,104 561,106 138,112 372,113 466,113 497,113 875,113 381,114 546,114 762,114 ]
+new before reroder: [819,115 656,115 502,115 657,114 196,114 609,99 323,113 926,112 743,113 123,114 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [609,99 926,112 323,113 743,113 123,114 196,114 657,114 502,115 656,115 819,115 ]
+new before reroder: [840,113 440,112 570,112 139,109 458,111 158,105 439,111 93,102 513,108 435,106 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [93,102 158,105 435,106 513,108 139,109 439,111 458,111 440,112 570,112 840,113 ]
+new before reroder: [8,116 511,115 883,114 164,115 37,114 766,113 294,114 818,114 193,107 888,108 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [193,107 888,108 766,113 37,114 294,114 818,114 883,114 164,115 511,115 8,116 ]
+new before reroder: [924,113 80,113 441,113 681,110 540,112 695,105 740,110 179,109 473,105 802,110 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [473,105 695,105 179,109 681,110 740,110 802,110 540,112 80,113 441,113 924,113 ]
+new before reroder: [217,115 657,114 744,113 439,114 532,112 834,112 317,113 696,112 99,114 146,110 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [146,110 532,112 696,112 834,112 317,113 744,113 99,114 439,114 657,114 217,115 ]
+new before reroder: [360,115 507,114 491,114 900,113 410,113 644,104 135,104 571,113 971,109 808,111 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [135,104 644,104 971,109 808,111 410,113 571,113 900,113 491,114 507,114 360,115 ]
+new before reroder: [492,116 481,115 918,115 824,114 250,111 523,115 849,114 221,114 954,113 74,108 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [74,108 250,111 954,113 221,114 824,114 849,114 481,115 523,115 918,115 492,116 ]
+new before reroder: [779,113 520,113 393,113 400,113 39,112 61,113 847,112 863,104 756,109 50,109 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [863,104 50,109 756,109 39,112 847,112 61,113 393,113 400,113 520,113 779,113 ]
+new before reroder: [251,114 241,114 47,114 952,113 106,111 899,113 729,109 595,113 762,103 969,100 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [969,100 762,103 729,109 106,111 595,113 899,113 952,113 47,114 241,114 251,114 ]
+new before reroder: [508,113 282,112 945,112 139,111 211,110 97,98 226,110 495,109 481,108 670,108 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [97,98 481,108 670,108 495,109 211,110 226,110 139,111 282,112 945,112 508,113 ]
+new before reroder: [784,116 393,115 886,114 621,114 377,113 27,111 31,113 201,114 931,108 762,112 ]
+ref: [460,102 759,102 592,105 370,106 733,106 924,107 485,108 364,111 243,112 152,113 ]
+new: [931,108 27,111 762,112 31,113 377,113 201,114 621,114 886,114 393,115 784,116 ]
+[       OK ] TestLowLevelIVF.IVFBinary (78 ms)
+[----------] 1 test from TestLowLevelIVF (78 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (78 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.10 sec
+----------------------------------------------------------
+Test Passed.
+"TestLowLevelIVF.IVFBinary" end time: Nov 20 18:18 UTC
+"TestLowLevelIVF.IVFBinary" time elapsed: 00:00:00
+----------------------------------------------------------
+
+15/85 Testing: TestLowLevelIVF.ThreadedSearch
+15/85 Test: TestLowLevelIVF.ThreadedSearch
+Command: "/home/ubuntu/HybridVectorIndexBenchmarking/ACORN/build/tests/faiss_test" "--gtest_filter=TestLowLevelIVF.ThreadedSearch" "--gtest_also_run_disabled_tests"
+Directory: /home/ubuntu/HybridVectorIndexBenchmarking/ACORN/build/tests
+"TestLowLevelIVF.ThreadedSearch" start time: Nov 20 18:18 UTC
+Output:
+----------------------------------------------------------
+WARNING clustering 1000 points to 40 centroids: please provide at least 1560 training points
+Running main() from /home/ubuntu/HybridVectorIndexBenchmarking/ACORN/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TestLowLevelIVF.ThreadedSearch
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TestLowLevelIVF
+[ RUN      ] TestLowLevelIVF.ThreadedSearch
+[       OK ] TestLowLevelIVF.ThreadedSearch (36 ms)
+[----------] 1 test from TestLowLevelIVF (36 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (36 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"TestLowLevelIVF.ThreadedSearch" end time: Nov 20 18:18 UTC
+"TestLowLevelIVF.ThreadedSearch" time elapsed: 00:00:00
+----------------------------------------------------------
+
+16/85 Testing: MERGE.merge_flat_no_ids
+16/85 Test: MERGE.merge_flat_no_ids
+Command: "/home/ubuntu/HybridVectorIndexBenchmarking/ACORN/build/tests/faiss_test" "--gtest_filter=MERGE.merge_flat_no_ids" "--gtest_also_run_disabled_tests"
+Directory: /home/ubuntu/HybridVectorIndexBenchmarking/ACORN/build/tests
+"MERGE.merge_flat_no_ids" start time: Nov 20 18:18 UTC
+Output:
+----------------------------------------------------------
+WARNING clustering 1000 points to 40 centroids: please provide at least 1560 training points
+Running main() from /home/ubuntu/HybridVectorIndexBenchmarking/ACORN/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = MERGE.merge_flat_no_ids
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MERGE
+[ RUN      ] MERGE.merge_flat_no_ids
+[       OK ] MERGE.merge_flat_no_ids (1 ms)
+[----------] 1 test from MERGE (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"MERGE.merge_flat_no_ids" end time: Nov 20 18:18 UTC
+"MERGE.merge_flat_no_ids" time elapsed: 00:00:00
+----------------------------------------------------------
+
+17/85 Testing: MERGE.merge_flat
+17/85 Test: MERGE.merge_flat
+Command: "/home/ubuntu/HybridVectorIndexBenchmarking/ACORN/build/tests/faiss_test" "--gtest_filter=MERGE.merge_flat" "--gtest_also_run_disabled_tests"
+Directory: /home/ubuntu/HybridVectorIndexBenchmarking/ACORN/build/tests
+"MERGE.merge_flat" start time: Nov 20 18:18 UTC
+Output:
+----------------------------------------------------------
+WARNING clustering 1000 points to 40 centroids: please provide at least 1560 training points
+Running main() from /home/ubuntu/HybridVectorIndexBenchmarking/ACORN/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = MERGE.merge_flat
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MERGE
+[ RUN      ] MERGE.merge_flat
+[       OK ] MERGE.merge_flat (1 ms)
+[----------] 1 test from MERGE (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"MERGE.merge_flat" end time: Nov 20 18:18 UTC
+"MERGE.merge_flat" time elapsed: 00:00:00
+----------------------------------------------------------
+
+18/85 Testing: MERGE.merge_flat_vt
+18/85 Test: MERGE.merge_flat_vt
+Command: "/home/ubuntu/HybridVectorIndexBenchmarking/ACORN/build/tests/faiss_test" "--gtest_filter=MERGE.merge_flat_vt" "--gtest_also_run_disabled_tests"
+Directory: /home/ubuntu/HybridVectorIndexBenchmarking/ACORN/build/tests
+"MERGE.merge_flat_vt" start time: Nov 20 18:18 UTC
+Output:
+----------------------------------------------------------
+WARNING clustering 1000 points to 40 centroids: please provide at least 1560 training points
+Running main() from /home/ubuntu/HybridVectorIndexBenchmarking/ACORN/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = MERGE.merge_flat_vt
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MERGE
+[ RUN      ] MERGE.merge_flat_vt
+WARNING clustering 1000 points to 40 centroids: please provide at least 1560 training points
+[       OK ] MERGE.merge_flat_vt (31 ms)
+[----------] 1 test from MERGE (31 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (31 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"MERGE.merge_flat_vt" end time: Nov 20 18:18 UTC
+"MERGE.merge_flat_vt" time elapsed: 00:00:00
+----------------------------------------------------------
+
+19/85 Testing: MERGE.merge_flat_ondisk
+19/85 Test: MERGE.merge_flat_ondisk
+Command: "/home/ubuntu/HybridVectorIndexBenchmarking/ACORN/build/tests/faiss_test" "--gtest_filter=MERGE.merge_flat_ondisk" "--gtest_also_run_disabled_tests"
+Directory: /home/ubuntu/HybridVectorIndexBenchmarking/ACORN/build/tests
+"MERGE.merge_flat_ondisk" start time: Nov 20 18:18 UTC
+Output:
+----------------------------------------------------------
+WARNING clustering 1000 points to 40 centroids: please provide at least 1560 training points
+Running main() from /home/ubuntu/HybridVectorIndexBenchmarking/ACORN/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = MERGE.merge_flat_ondisk
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MERGE
+[ RUN      ] MERGE.merge_flat_ondisk
+resizing /tmp/faiss_tmp_ggwVND to 512 bytes
+resizing /tmp/faiss_tmp_ggwVND to 1024 bytes
+resizing /tmp/faiss_tmp_ggwVND to 2048 bytes
+resizing /tmp/faiss_tmp_ggwVND to 4096 bytes
+resizing /tmp/faiss_tmp_ggwVND to 8192 bytes
+resizing /tmp/faiss_tmp_ggwVND to 16384 bytes
+resizing /tmp/faiss_tmp_ggwVND to 32768 bytes
+resizing /tmp/faiss_tmp_ggwVND to 65536 bytes
+resizing /tmp/faiss_tmp_ggwVND to 131072 bytes
+resizing /tmp/faiss_tmp_ggwVND to 262144 bytes
+resizing /tmp/faiss_tmp_ggwVND to 524288 bytes
+resizing /tmp/faiss_tmp_ggwVND to 1048576 bytes
+[       OK ] MERGE.merge_flat_ondisk (18 ms)
+[----------] 1 test from MERGE (18 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (18 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"MERGE.merge_flat_ondisk" end time: Nov 20 18:18 UTC
+"MERGE.merge_flat_ondisk" time elapsed: 00:00:00
+----------------------------------------------------------
+
+20/85 Testing: MERGE.merge_flat_ondisk_2
+20/85 Test: MERGE.merge_flat_ondisk_2
+Command: "/home/ubuntu/HybridVectorIndexBenchmarking/ACORN/build/tests/faiss_test" "--gtest_filter=MERGE.merge_flat_ondisk_2" "--gtest_also_run_disabled_tests"
+Directory: /home/ubuntu/HybridVectorIndexBenchmarking/ACORN/build/tests
+"MERGE.merge_flat_ondisk_2" start time: Nov 20 18:18 UTC
+Output:
+----------------------------------------------------------
+WARNING clustering 1000 points to 40 centroids: please provide at least 1560 training points
+Running main() from /home/ubuntu/HybridVectorIndexBenchmarking/ACORN/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = MERGE.merge_flat_ondisk_2
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MERGE
+[ RUN      ] MERGE.merge_flat_ondisk_2
+resizing /tmp/faiss_tmp_5ZTqlM to 264000 bytes
+[       OK ] MERGE.merge_flat_ondisk_2 (15 ms)
+[----------] 1 test from MERGE (15 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (15 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"MERGE.merge_flat_ondisk_2" end time: Nov 20 18:18 UTC
+"MERGE.merge_flat_ondisk_2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+21/85 Testing: Threading.openmp
+21/85 Test: Threading.openmp
+Command: "/home/ubuntu/HybridVectorIndexBenchmarking/ACORN/build/tests/faiss_test" "--gtest_filter=Threading.openmp" "--gtest_also_run_disabled_tests"
+Directory: /home/ubuntu/HybridVectorIndexBenchmarking/ACORN/build/tests
+"Threading.openmp" start time: Nov 20 18:18 UTC
+Output:
+----------------------------------------------------------
+WARNING clustering 1000 points to 40 centroids: please provide at least 1560 training points
+Running main() from /home/ubuntu/HybridVectorIndexBenchmarking/ACORN/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Threading.openmp
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Threading
+[ RUN      ] Threading.openmp
+[       OK ] Threading.openmp (0 ms)
+[----------] 1 test from Threading (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"Threading.openmp" end time: Nov 20 18:18 UTC
+"Threading.openmp" time elapsed: 00:00:00
+----------------------------------------------------------
+
+22/85 Testing: ONDISK.make_invlists
+22/85 Test: ONDISK.make_invlists
+Command: "/home/ubuntu/HybridVectorIndexBenchmarking/ACORN/build/tests/faiss_test" "--gtest_filter=ONDISK.make_invlists" "--gtest_also_run_disabled_tests"
+Directory: /home/ubuntu/HybridVectorIndexBenchmarking/ACORN/build/tests
+"ONDISK.make_invlists" start time: Nov 20 18:18 UTC
+Output:
+----------------------------------------------------------
+WARNING clustering 1000 points to 40 centroids: please provide at least 1560 training points
+Running main() from /home/ubuntu/HybridVectorIndexBenchmarking/ACORN/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ONDISK.make_invlists
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ONDISK
+[ RUN      ] ONDISK.make_invlists
+resizing /tmp/faiss_tmp_NoAGMI to 64 bytes
+resizing /tmp/faiss_tmp_NoAGMI to 128 bytes
+resizing /tmp/faiss_tmp_NoAGMI to 256 bytes
+resizing /tmp/faiss_tmp_NoAGMI to 512 bytes
+resizing /tmp/faiss_tmp_NoAGMI to 1024 bytes
+resizing /tmp/faiss_tmp_NoAGMI to 2048 bytes
+resizing /tmp/faiss_tmp_NoAGMI to 4096 bytes
+resizing /tmp/faiss_tmp_NoAGMI to 8192 bytes
+resizing /tmp/faiss_tmp_NoAGMI to 16384 bytes
+resizing /tmp/faiss_tmp_NoAGMI to 32768 bytes
+resizing /tmp/faiss_tmp_NoAGMI to 65536 bytes
+resizing /tmp/faiss_tmp_NoAGMI to 131072 bytes
+resizing /tmp/faiss_tmp_NoAGMI to 262144 bytes
+resizing /tmp/faiss_tmp_NoAGMI to 524288 bytes
+resizing /tmp/faiss_tmp_NoAGMI to 1048576 bytes
+resizing /tmp/faiss_tmp_NoAGMI to 2097152 bytes
+resizing /tmp/faiss_tmp_NoAGMI to 4194304 bytes
+resizing /tmp/faiss_tmp_NoAGMI to 8388608 bytes
+resizing /tmp/faiss_tmp_NoAGMI to 16777216 bytes
+resizing /tmp/faiss_tmp_NoAGMI to 33554432 bytes
+resizing /tmp/faiss_tmp_NoAGMI to 67108864 bytes
+resizing /tmp/faiss_tmp_NoAGMI to 134217728 bytes
+[       OK ] ONDISK.make_invlists (498 ms)
+[----------] 1 test from ONDISK (498 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (498 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.52 sec
+----------------------------------------------------------
+Test Passed.
+"ONDISK.make_invlists" end time: Nov 20 18:18 UTC
+"ONDISK.make_invlists" time elapsed: 00:00:00
+----------------------------------------------------------
+
+23/85 Testing: ONDISK.test_add
+23/85 Test: ONDISK.test_add
+Command: "/home/ubuntu/HybridVectorIndexBenchmarking/ACORN/build/tests/faiss_test" "--gtest_filter=ONDISK.test_add" "--gtest_also_run_disabled_tests"
+Directory: /home/ubuntu/HybridVectorIndexBenchmarking/ACORN/build/tests
+"ONDISK.test_add" start time: Nov 20 18:18 UTC
+Output:
+----------------------------------------------------------
+WARNING clustering 1000 points to 40 centroids: please provide at least 1560 training points
+Running main() from /home/ubuntu/HybridVectorIndexBenchmarking/ACORN/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ONDISK.test_add
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ONDISK
+[ RUN      ] ONDISK.test_add
+resizing /tmp/faiss_tmp_bRNSD2 to 64 bytes
+resizing /tmp/faiss_tmp_bRNSD2 to 128 bytes
+resizing /tmp/faiss_tmp_bRNSD2 to 256 bytes
+resizing /tmp/faiss_tmp_bRNSD2 to 512 bytes
+resizing /tmp/faiss_tmp_bRNSD2 to 1024 bytes
+resizing /tmp/faiss_tmp_bRNSD2 to 2048 bytes
+resizing /tmp/faiss_tmp_bRNSD2 to 4096 bytes
+resizing /tmp/faiss_tmp_bRNSD2 to 8192 bytes
+resizing /tmp/faiss_tmp_bRNSD2 to 16384 bytes
+resizing /tmp/faiss_tmp_bRNSD2 to 32768 bytes
+resizing /tmp/faiss_tmp_bRNSD2 to 65536 bytes
+resizing /tmp/faiss_tmp_bRNSD2 to 131072 bytes
+resizing /tmp/faiss_tmp_bRNSD2 to 262144 bytes
+[       OK ] ONDISK.test_add (41 ms)
+[----------] 1 test from ONDISK (41 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (41 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"ONDISK.test_add" end time: Nov 20 18:18 UTC
+"ONDISK.test_add" time elapsed: 00:00:00
+----------------------------------------------------------
+

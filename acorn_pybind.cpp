@@ -64,6 +64,21 @@ PYBIND11_MODULE(acorn_ext, m) {
             size_t d = x.shape(1);
             FAISS_THROW_IF_NOT(d == self.d);
             
+            // Validate filter_id_map dimensions
+            py::buffer_info filter_buf = filter_id_map.request();
+            if (filter_buf.ndim != 2) {
+                throw std::runtime_error("filter_id_map must be 2D array (n_queries, ntotal)");
+            }
+            size_t filter_rows = filter_buf.shape[0];
+            size_t filter_cols = filter_buf.shape[1];
+            if (filter_rows != n) {
+                throw std::runtime_error("filter_id_map rows must match number of queries");
+            }
+            if (filter_cols != (size_t)self.ntotal) {
+                throw std::runtime_error("filter_id_map columns (" + std::to_string(filter_cols) + 
+                    ") must match ntotal (" + std::to_string(self.ntotal) + ")");
+            }
+            
             // Outputs
             py::array_t<float> distances({n, (size_t)k});
             py::array_t<int64_t> labels({n, (size_t)k});
@@ -72,7 +87,16 @@ PYBIND11_MODULE(acorn_ext, m) {
             
             return py::make_tuple(distances, labels);
         })
-        .def("delete_node", &faiss::IndexACORN::delete_node)
+        .def("delete_node", [](faiss::IndexACORNFlat &self, faiss::idx_t node_id) {
+            // Bounds check to prevent segfault
+            if (node_id < 0 || node_id >= self.ntotal) {
+                throw std::out_of_range("delete_node: node_id out of range");
+            }
+            self.delete_node(node_id);
+        })
+        .def("set_efSearch", [](faiss::IndexACORNFlat &self, int efSearch) {
+            self.acorn.efSearch = efSearch;
+        })
         .def_readwrite("ntotal", &faiss::Index::ntotal)
         .def_readwrite("d", &faiss::Index::d)
         ;

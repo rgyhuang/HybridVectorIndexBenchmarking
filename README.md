@@ -1,37 +1,7 @@
-# ACORN Python Wrapper - Ready to Use
-
-## Quick Start
-
-```bash
-# Run benchmarks
-python3 benchmark.py
-
-# Run example
-python3 example.py
-
-# Run tests  
-python3 test_acorn.py
-```
-
-```python
-from ACORNIndex import ACORNIndex
-
-# Same interface as other indices
-index = ACORNIndex(dimension=128)
-index.insert(vector, metadata, doc_id)
-latency, results = index.search(query, predicate, k=10)
-```
-
-Benchmark results:
-```
-Index                          Recall     P50 (ms)     P99 (ms)    
-------------------------------------------------------------
-ACORN (Python)                 1.0000     2.53         2.84        
-FAISS HNSW (post-filter)       0.9832     0.16         2.89
-```
+# Hybrid Index Benchmarking Suite
 
 
-## Usage
+## ACORN Wrapper Usage
 
 ```python
 from ACORNIndex import ACORNIndex
@@ -50,20 +20,24 @@ latency, ids = index.search(query, lambda m: m['category'] == 'A', k=10)
 ```
 
 # Directory
-- **ACORNIndex.py** - Main wrapper (working now)
-- **benchmark.py** - Compare ACORN vs FAISS (working)
-- **example.py** - Usage examples (working)
-- **test_acorn.py** - Tests (9 tests, all pass)
-
+- **ACORNIndex.py** - Main wrapper 
+- **benchmark.py** - Compare ACORN vs FAISS (Pre/post filtering)
 
 ## Performance
 
-**Current (Python)**:
-- Recall: 100% (perfect)
-- Latency: 2-6ms
-- Great for testing
 
-**Future (C++ once fixed)**:
-- Recall: 95-99%  
-- Latency: 0.1-1ms
-- 10-100x faster
+# Run full sweep 
+
+./run_selectivity_sweep.sh
+
+(default: n_ops=1000,5000,10000,50000 × selectivities=1,2,5,10,20%)
+
+# Custom parameters
+./run_selectivity_sweep.sh \
+    --n-init 100000 \
+    --n-ops-values 1000,5000,10000,50000 \
+    --selectivities 1.0,5.0,10.0,20.0,50.0 \
+    --output results.csv
+
+# Generate plots
+python3 plot_selectivity_sweep.py --input results.csv --output my_plots

@@ -1,0 +1,19 @@
+Start testing: Nov 20 18:17 UTC
+----------------------------------------------------------
+Unable to find executable: faiss_test_NOT_BUILT
+1/1 Testing: faiss_test_NOT_BUILT
+1/1 Test: faiss_test_NOT_BUILT
+Command: ""
+Directory: /home/ubuntu/HybridVectorIndexBenchmarking/ACORN/build/tests
+"faiss_test_NOT_BUILT" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"faiss_test_NOT_BUILT" end time: Nov 20 18:17 UTC
+"faiss_test_NOT_BUILT" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Nov 20 18:17 UTC
